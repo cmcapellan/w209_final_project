@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testing Vis</title>
+  <script type="text/javascript" src="../d3.js"></script>
+</head>
+<body>
+  <script type="text/javascript">
+
+  //Width and height
+  var w = 900;
+  var h = 300;
+  var padding = 40;
+  
+  var dataset, xScale, yScale, xAxis, yAxis;  //Empty, for now
+
+  // For converting strings to Dates
+  // Start with 'Mon Dec 03, 2018 11:31 UTC'
+  var parseTime = d3.timeParse("%a %b %d, %Y %H:%M UTC");
+
+  //For converting Dates to strings
+  // Want "2018"
+  var formatTime = d3.timeFormat("%Y");
+
+  //Function for converting CSV values from strings to Dates and numbers
+  var rowConverter = function(d) {
+    return {
+      Date: parseTime(d.Datum),
+      Detail: d.Detail,
+      Program: d.Program
+    };
+  }
+
+  //Load in the data
+  d3.csv("missions.csv", rowConverter, function(data) {
+
+    //Copy data into global dataset
+    dataset = data;
+
+    //Discover start and end dates in dataset
+    startDate = d3.min(dataset, function(d) { return d.Date; });
+    endDate = d3.max(dataset, function(d) { return d.Date; });
+
+    // Generate offset for different groups
+    offset = (h - (2 * padding))/11
+
+    //Easy colors accessible via a 10-step ordinal scale
+    var colors = d3.scaleOrdinal(d3.schemeCategory10);
+
+    //Create scale functions
+    xScale = d3.scaleTime()
+               .domain([
+                  d3.timeDay.offset(startDate, -1),  //startDate minus one day, for padding
+                  d3.timeDay.offset(endDate, 1)   //endDate plus one day, for padding
+                ])
+               .range([padding, w - padding]);
+    
+    //Define X axis
+    xAxis = d3.axisBottom()
+              .scale(xScale)
+              .ticks(9)
+              .tickFormat(formatTime);
+    
+    //Create SVG element
+    var svg = d3.select("body")
+          .append("svg")
+          .attr("width", w)
+          .attr("height", h);
+
+    //Generate circles 
+    svg.selectAll("circle")
+       .data(dataset)
+       .enter()
+       .append("circle")
+       .attr("cx", function(d) {
+          return xScale(d.Date);
+       })
+       .attr("cy", function(d) {
+          if (d.Program == "Mercury"){
+            return padding + offset;
+          }
+          else if (d.Program == "Gemini") {
+            return padding + 2*offset;
+          }
+          else if (d.Program == "Apollo") {
+            return padding + 3*offset;
+          }
+          else if (d.Program == "Skylab") {
+            return padding + 4*offset;
+          }
+          else if (d.Program == "Space Shuttle Columbia") {
+            return padding + 5*offset;
+          }
+          else if (d.Program == "Space Shuttle Challenger") {
+            return padding + 6*offset;
+          }
+          else if (d.Program == "Space Shuttle Discovery") {
+            return padding + 7*offset;
+          }
+          else if (d.Program == "Space Shuttle Atlantis") {
+            return padding + 8*offset;
+          }
+          else if (d.Program == "Space Shuttle Endeavour") {
+            return padding + 9*offset;
+          }
+          else if (d.Program == "ISS") {
+            return padding + 10*offset;
+          }
+       })
+       .attr("r", 2)
+       .style("fill", function(d){ 
+          if (d.Program == "Mercury"){
+            return colors(1);
+          }
+          else if (d.Program == "Gemini") {
+            return colors(2);
+          }
+          else if (d.Program == "Apollo") {
+            return colors(3);
+          }
+          else if (d.Program == "Skylab") {
+            return colors(4);
+          }
+          else if (d.Program == "Space Shuttle Columbia") {
+            return colors(5);
+          }
+          else if (d.Program == "Space Shuttle Challenger") {
+            return colors(6);
+          }
+          else if (d.Program == "Space Shuttle Discovery") {
+            return colors(7);
+          }
+          else if (d.Program == "Space Shuttle Atlantis") {
+            return colors(8);
+          }
+          else if (d.Program == "Space Shuttle Endeavour") {
+            return colors(9);
+          }
+          else if (d.Program == "ISS") {
+            return colors(10);
+          }
+        });
+
+    //Create X axis
+    svg.append("g")
+      .attr("class", "axis")
+      .attr("transform", "translate(0," + (h - padding) + ")")
+      .call(xAxis);
+
+    // text label for x axis
+    svg.append("text")
+      .attr("class", "xaxis_label")
+      .attr("transform", "translate(" + (w/2) +  " ," + (h) + ")")
+      .style("text-anchor", "middle")
+      .text("Year");
+
+  });
+  </script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testing Vis</title>
+  <script type="text/javascript" src="../d3.js"></script>
+  <style>
+    div.tooltip { 
+      position: absolute;     
+      text-align: center;     
+      width: 60px;          
+      height: 28px;         
+      padding: 2px;       
+      font: 12px sans-serif;    
+      background: lightsteelblue; 
+      border: 0px;    
+      border-radius: 8px;     
+      pointer-events: none;     
+    }
+  </style>
+</head>
+<body>
+  <script type="text/javascript">
+    //Width and height
+    var w = 800;
+    var h = 300;
+    var padding = 50;
+
+    //Original data
+    var dataset = [{'Group': 1, 'pctM': 1.0, 'pctW': 0.0, 'W': 0, 'M': 7}, {'Group': 2, 'pctM': 1.0, 'pctW': 0.0, 'W': 0, 'M': 9}, {'Group': 3, 'pctM': 1.0, 'pctW': 0.0, 'W': 0, 'M': 15}, {'Group': 4, 'pctM': 1.0, 'pctW': 0.0, 'W': 0, 'M': 6}, {'Group': 5, 'pctM': 1.0, 'pctW': 0.0, 'W': 0, 'M': 19}, {'Group': 6, 'pctM': 1.0, 'pctW': 0.0, 'W': 0, 'M': 11}, {'Group': 7, 'pctM': 1.0, 'pctW': 0.0, 'W': 0, 'M': 7}, {'Group': 8, 'pctM': 0.8285714285714286, 'pctW': 0.17142857142857143, 'W': 6, 'M': 29}, {'Group': 9, 'pctM': 0.8947368421052632, 'pctW': 0.10526315789473684, 'W': 2, 'M': 17}, {'Group': 10, 'pctM': 0.8235294117647058, 'pctW': 0.17647058823529413, 'W': 3, 'M': 14}, {'Group': 11, 'pctM': 0.8461538461538461, 'pctW': 0.15384615384615385, 'W': 2, 'M': 11}, {'Group': 12, 'pctM': 0.8666666666666667, 'pctW': 0.13333333333333333, 'W': 2, 'M': 13}, {'Group': 13, 'pctM': 0.7727272727272727, 'pctW': 0.22727272727272727, 'W': 5, 'M': 17}, {'Group': 14, 'pctM': 0.8421052631578947, 'pctW': 0.15789473684210525, 'W': 3, 'M': 16}, {'Group': 15, 'pctM': 0.7368421052631579, 'pctW': 0.2631578947368421, 'W': 5, 'M': 14}, {'Group': 16, 'pctM': 0.7714285714285715, 'pctW': 0.22857142857142856, 'W': 8, 'M': 27}, {'Group': 17, 'pctM': 0.84, 'pctW': 0.16, 'W': 4, 'M': 21}, {'Group': 18, 'pctM': 0.8235294117647058, 'pctW': 0.17647058823529413, 'W': 3, 'M': 14}, {'Group': 19, 'pctM': 0.8181818181818182, 'pctW': 0.18181818181818182, 'W': 2, 'M': 9}, {'Group': 20, 'pctM': 0.6666666666666666, 'pctW': 0.3333333333333333, 'W': 3, 'M': 6}, {'Group': 21, 'pctM': 0.5, 'pctW': 0.5, 'W': 4, 'M': 4}, {'Group': 22, 'pctM': 0.5, 'pctW': 0.5, 'W': 6, 'M': 6}
+    ];
+
+    // Set up stack
+    var stack = d3.stack().keys(["pctW","pctM"]);
+
+    //data, stacked
+    var series = stack(dataset);
+
+    //Set up scales
+    var xScale = d3.scaleBand()
+    .domain(d3.range(dataset.length))
+    .range([0, w])
+    .paddingInner(0.05);
+    
+    var yScale = d3.scaleLinear()
+    .domain([0,       
+      d3.max(dataset, function(d) {
+        return d.pctW + d.pctM;
+      })
+      ])
+    .range([0, h]);
+          //Nasa colors
+          var colors = ["#FC3D21","#0B3D91"];
+
+    //Create SVG element
+    var svg = d3.select("body")
+    .append("svg")
+    .attr("width", w + padding)
+    .attr("height", h + padding);
+
+    // Add a group for each row of data
+    var groups = svg.selectAll("g")
+    .data(series)
+    .enter()
+    .append("g")
+    .style("fill", function(d, i) {
+      return colors[i];
+    });
+
+    // Define the div for the tooltip
+    var div = d3.select("body").append("div") 
+      .attr("class", "tooltip")       
+      .style("opacity", 0);
+
+    // Add a rect for each data value
+    var rects = groups.selectAll("rect")
+    .data(function(d) { return d; })
+    .enter()
+    .append("rect")
+    .attr("x", function(d, i) {
+      return xScale(i);
+    })
+    .attr("y", function(d) {
+      return yScale(d[0]);
+    })
+    .attr("height", function(d) {
+      return yScale(d[1]) - yScale(d[0]);
+    })
+    .attr("width", xScale.bandwidth())
+    .on("mouseover", function(d){
+      div.transition()
+        .duration(10)
+        .style("opacity", 0.9);
+      return d
+    })
+    .on("mouseout", function(d) {   
+      div.transition()    
+        .duration(500)    
+        .style("opacity", 0); 
+    });
+
+
+    //axis
+    var xAxis = d3.axisBottom()
+    .scale(xScale);
+
+    svg.append("g")
+    .attr("class", "x axis")
+    .attr("transform", "translate(0," + h + ")")
+    .call(xAxis);
+
+    // text label for the x axis
+    svg.append("text")             
+    .attr("transform",
+      "translate(" + ((w+padding)/2) + " ," + 
+      (h+ 30) + ")")
+    .style("text-anchor", "middle")
+    .text("Group");
+
+    </script>
+  </body>
+  </html>
