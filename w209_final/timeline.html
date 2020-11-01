@@ -47,6 +47,11 @@
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, veritatis exercitationem! Veniam nulla temporibus laborum quo perferendis ab dolor modi porro accusantium distinctio assumenda, dicta qui tenetur quidem. Obcaecati, laboriosam?
         </div>
       </div>
+      <br>
+      <div class="row">
+        <div class="col-md-6 butt" id="button1">Astronaut Military vs Civilian</div>
+        <div class="col-md-6 butt" id="button2">Astronaut Demographics</div>
+      </div>
       <div class="row">
         <div class="col-md-9 mx-auto" id="sb_chart"></div>
       </div>
@@ -75,7 +80,8 @@
     var x, y, xAxis, yAxis; //Empty, for now
 
     //Nasa colors
-    var colors = ["#FC3D21","#0B3D91"];
+    var nasa_colors = ["#FC3D21","#0B3D91"];
+    var milciv_colors = ['#6B8E23','#9370DB'];
 
     // import data 
     d3.json("/static/data/gen_grp.txt", function(data) {
@@ -112,7 +118,7 @@
         .enter()
         .append("g")
         .style("fill", function(d, i) {
-          return colors[i];
+          return nasa_colors[i];
         });
 
       // set up tooltip
@@ -143,9 +149,9 @@
         .attr("width", xScale.bandwidth())
         .on("mouseover", function(d, i) {
           return tooltip.style("opacity", 1)
-          .html("Group: " + (i+1) + "<br>" + 
+          .html("<h5>Group: " + (i+1) + "</h5>" + 
             "Women: " + series[0][i]["data"]["W"] + "<br>" +
-            "Men: " + series[0][i]["data"]["M"] + "<br>"+
+            "Men: " + series[0][i]["data"]["M"] + "<br><br>"+
             "<img src=\"static/images/grp_"+(i+1)+".jpg\" >")})
         .on("mousemove", function(d){
           return tooltip.style("top", (event.pageY-10)+"px")
@@ -163,7 +169,7 @@
         .call(xAxis);
 
       // text label for the x axis
-      // TODO: Figure out why we aren't seeing the group number.
+      // TODO: Figure out why we aren't seeing the group or number.
         svg.append("text")
         .attr("class", "x-axis-label")             
         .attr("transform",
@@ -171,6 +177,45 @@
           (height + margin.top + margin.bottom/2) + ")")
         .style("text-anchor", "middle")
         .text("Group");
+      
+      // Change vis data to Activity Calories
+      // TODO: Figure out why this won't change data to the new stacking
+      // https://stackoverflow.com/questions/18186011/how-to-update-data-in-stack-bar-chart-in-d3
+      d3.select("#button1")
+        .on("click", function() {
+        console.log("Ouch!")
+
+        // Set up stack
+        var stack = d3.stack().keys(["pctCiv","pctMil"]);
+        //data, stacked
+        var series = stack(dataset);
+
+        //Set up scales
+        var yScale = d3.scaleLinear()
+          .domain([0, d3.max(dataset, function(d) {
+              return d.pctW + d.pctM;})])
+          .range([0, height]);
+
+        // add color scale to series
+        var groups = svg.selectAll("g")
+          .transition().duration(1000)
+          .style("fill", function(d, i) {
+            return milciv_colors[i];
+          });  
+
+        // Add a rect for each data value
+        var rects = groups.selectAll("rect")
+          .transition().duration(1000)
+          .attr("y", function(d) {
+            return yScale(d[0]);
+          })
+          .attr("height", function(d) {
+            return yScale(d[1]) - yScale(d[0])
+          })
+
+
+      });
+
       });
     </script>
   </body>
