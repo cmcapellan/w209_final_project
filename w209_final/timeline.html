@@ -50,7 +50,6 @@
       <div class="row">
         <div class="col-md-9 mx-auto" id="sb_chart"></div>
       </div>
-      <div>Test</div>
     </div>
   </section>
 
@@ -78,98 +77,101 @@
     //Nasa colors
     var colors = ["#FC3D21","#0B3D91"];
 
-    //Original data
-    var dataset = [{"Group": 1, "pctM": 1.0, "pctW": 0.0, "W": 0, "M": 7, "pctMil": 1.0, "pctCiv": 0.0}, {"Group": 2, "pctM": 1.0, "pctW": 0.0, "W": 0, "M": 9, "pctMil": 0.7777777777777778, "pctCiv": 0.2222222222222222}, {"Group": 3, "pctM": 1.0, "pctW": 0.0, "W": 0, "M": 15, "pctMil": 0.9333333333333333, "pctCiv": 0.06666666666666667}, {"Group": 4, "pctM": 1.0, "pctW": 0.0, "W": 0, "M": 6, "pctMil": 0.16666666666666666, "pctCiv": 0.8333333333333334}, {"Group": 5, "pctM": 1.0, "pctW": 0.0, "W": 0, "M": 19, "pctMil": 0.7894736842105263, "pctCiv": 0.21052631578947367}, {"Group": 6, "pctM": 1.0, "pctW": 0.0, "W": 0, "M": 11, "pctMil": 0.0, "pctCiv": 1.0}, {"Group": 7, "pctM": 1.0, "pctW": 0.0, "W": 0, "M": 7, "pctMil": 1.0, "pctCiv": 0.0}, {"Group": 8, "pctM": 0.8285714285714286, "pctW": 0.17142857142857143, "W": 6, "M": 29, "pctMil": 0.6, "pctCiv": 0.4}, {"Group": 9, "pctM": 0.8947368421052632, "pctW": 0.10526315789473684, "W": 2, "M": 17, "pctMil": 0.6842105263157895, "pctCiv": 0.3157894736842105}, {"Group": 10, "pctM": 0.8235294117647058, "pctW": 0.17647058823529413, "W": 3, "M": 14, "pctMil": 0.7058823529411765, "pctCiv": 0.29411764705882354}, {"Group": 11, "pctM": 0.8461538461538461, "pctW": 0.15384615384615385, "W": 2, "M": 11, "pctMil": 0.6153846153846154, "pctCiv": 0.38461538461538464}, {"Group": 12, "pctM": 0.8666666666666667, "pctW": 0.13333333333333333, "W": 2, "M": 13, "pctMil": 0.7333333333333333, "pctCiv": 0.26666666666666666}, {"Group": 13, "pctM": 0.7727272727272727, "pctW": 0.22727272727272727, "W": 5, "M": 17, "pctMil": 0.5454545454545454, "pctCiv": 0.45454545454545453}, {"Group": 14, "pctM": 0.8421052631578947, "pctW": 0.15789473684210525, "W": 3, "M": 16, "pctMil": 0.47368421052631576, "pctCiv": 0.5263157894736842}, {"Group": 15, "pctM": 0.7368421052631579, "pctW": 0.2631578947368421, "W": 5, "M": 14, "pctMil": 0.7368421052631579, "pctCiv": 0.2631578947368421}, {"Group": 16, "pctM": 0.7714285714285715, "pctW": 0.22857142857142856, "W": 8, "M": 27, "pctMil": 0.6285714285714286, "pctCiv": 0.37142857142857144}, {"Group": 17, "pctM": 0.84, "pctW": 0.16, "W": 4, "M": 21, "pctMil": 0.56, "pctCiv": 0.44}, {"Group": 18, "pctM": 0.8235294117647058, "pctW": 0.17647058823529413, "W": 3, "M": 14, "pctMil": 0.7058823529411765, "pctCiv": 0.29411764705882354}, {"Group": 19, "pctM": 0.8181818181818182, "pctW": 0.18181818181818182, "W": 2, "M": 9, "pctMil": 0.36363636363636365, "pctCiv": 0.6363636363636364}, {"Group": 20, "pctM": 0.6666666666666666, "pctW": 0.3333333333333333, "W": 3, "M": 6, "pctMil": 0.4444444444444444, "pctCiv": 0.5555555555555556}, {"Group": 21, "pctM": 0.5, "pctW": 0.5, "W": 4, "M": 4, "pctMil": 0.75, "pctCiv": 0.25}, {"Group": 22, "pctM": 0.5, "pctW": 0.5, "W": 6, "M": 6, "pctMil": 0.5833333333333334, "pctCiv": 0.4166666666666667}];
-    
-    // Set up stack
-    var stack = d3.stack().keys(["pctW","pctM"]);
+    // import data 
+    d3.json("/static/data/gen_grp.txt", function(data) {
+      console.log(data);
+      dataset = data;
 
-    //data, stacked
-    var series = stack(dataset);
+      // Set up stack
+      var stack = d3.stack().keys(["pctW","pctM"]);
 
-    //Set up scales
-    var xScale = d3.scaleBand()
-      .domain(d3.range(dataset.length))
-      .rangeRound([0, width], .05)
-      .paddingInner(0.05);
-    var yScale = d3.scaleLinear()
-      .domain([0, d3.max(dataset, function(d) {
-          return d.pctW + d.pctM;})])
-      .range([0, height]);
-            
-    //Create SVG element
-    var svg = d3.select("#sb_chart").append("svg")
-      .attr("width", width + margin.left + margin.right)
-      .attr("height", height + margin.top + margin.bottom)
-      .append("g")
-      .attr("transform",
-            "translate(" + margin.left + "," + margin.top + ")");
-    
-    // Add a group for each row of data
-    var groups = svg.selectAll("g")
-      .data(series)
-      .enter()
-      .append("g")
-      .style("fill", function(d, i) {
-        return colors[i];
+      //data, stacked
+      var series = stack(dataset);
+
+      //Set up scales
+      var xScale = d3.scaleBand()
+        .domain(d3.range(dataset.length))
+        .rangeRound([0, width], .05)
+        .paddingInner(0.05);
+      var yScale = d3.scaleLinear()
+        .domain([0, d3.max(dataset, function(d) {
+            return d.pctW + d.pctM;})])
+        .range([0, height]);
+              
+      //Create SVG element
+      var svg = d3.select("#sb_chart").append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform",
+              "translate(" + margin.left + "," + margin.top + ")");
+
+      // Add a group for each row of data
+      var groups = svg.selectAll("g")
+        .data(series)
+        .enter()
+        .append("g")
+        .style("fill", function(d, i) {
+          return colors[i];
+        });
+
+      // set up tooltip
+      var tooltip = d3.select("body")
+        .append("div")
+        .style("opacity", 0)
+        .attr("class", "tooltip")
+        .style("background-color", "white")
+        .style("border", "solid")
+        .style("border-width", "1px")
+        .style("border-radius", "5px")
+        .style("padding", "10px")
+
+      // Add a rect for each data value
+      var rects = groups.selectAll("rect")
+        .data(function(d) { return d; })
+        .enter()
+        .append("rect")
+        .attr("x", function(d, i) {
+          return xScale(i);
+        })
+        .attr("y", function(d) {
+          return yScale(d[0]);
+        })
+        .attr("height", function(d) {
+          return yScale(d[1]) - yScale(d[0])
+        })
+        .attr("width", xScale.bandwidth())
+        .on("mouseover", function(d, i) {
+          return tooltip.style("opacity", 1)
+          .html("Group: " + (i+1) + "<br>" + 
+            "Women: " + series[0][i]["data"]["W"] + "<br>" +
+            "Men: " + series[0][i]["data"]["M"] + "<br>"+
+            "<img src=\"static/images/grp_"+(i+1)+".jpg\" >")})
+        .on("mousemove", function(d){
+          return tooltip.style("top", (event.pageY-10)+"px")
+            .style("left",(event.pageX+10)+"px");})
+        .on("mouseout", function(d) {
+          return tooltip.style("opacity", 0);});
+
+      //axis
+      var xAxis = d3.axisBottom()
+        .scale(xScale);
+
+      svg.append("g")
+        .attr("class", "x-axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis);
+
+      // text label for the x axis
+      // TODO: Figure out why we aren't seeing the group number.
+        svg.append("text")
+        .attr("class", "x-axis-label")             
+        .attr("transform",
+          "translate(" + ((width)/2) + " ," + 
+          (height + margin.top + margin.bottom/2) + ")")
+        .style("text-anchor", "middle")
+        .text("Group");
       });
-
-    // set up tooltip
-    var tooltip = d3.select("body")
-      .append("div")
-      .style("opacity", 0)
-      .attr("class", "tooltip")
-      .style("background-color", "white")
-      .style("border", "solid")
-      .style("border-width", "1px")
-      .style("border-radius", "5px")
-      .style("padding", "10px")
-
-    // Add a rect for each data value
-    var rects = groups.selectAll("rect")
-      .data(function(d) { return d; })
-      .enter()
-      .append("rect")
-      .attr("x", function(d, i) {
-        return xScale(i);
-      })
-      .attr("y", function(d) {
-        return yScale(d[0]);
-      })
-      .attr("height", function(d) {
-        return yScale(d[1]) - yScale(d[0])
-      })
-      .attr("width", xScale.bandwidth())
-      .on("mouseover", function(d, i) {
-        return tooltip.style("opacity", 1)
-        .html("Group: " + i + "<br>" + 
-          "Women: " + series[0][i]["data"]["W"] + "<br>" +
-          "Men: " + series[0][i]["data"]["M"] )})
-      .on("mousemove", function(d){
-        return tooltip.style("top", (event.pageY-10)+"px")
-          .style("left",(event.pageX+10)+"px");})
-      .on("mouseout", function(d) {
-        return tooltip.style("opacity", 0);});
-
-    //axis
-    var xAxis = d3.axisBottom()
-      .scale(xScale);
-
-    svg.append("g")
-      .attr("class", "x-axis")
-      .attr("transform", "translate(0," + height + ")")
-      .call(xAxis);
-
-    // text label for the x axis
-    // TODO: Figure out why we aren't seeing the group number.
-      svg.append("text")
-      .attr("class", "x-axis-label")             
-      .attr("transform",
-        "translate(" + ((width)/2) + " ," + 
-        (height + margin.top + margin.bottom/2) + ")")
-      .style("text-anchor", "middle")
-      .text("Group");
-
     </script>
   </body>
 </html>
