@@ -1,6 +1,18 @@
 body { 
     background: black !important; 
 }
+
+.x-axis path, .x-axis line{
+    fill: none;
+    stroke: #fff;
+    shape-rendering: crispEdges;
+}
+
+.x-axis-label{
+    font: 16px sans-serif;
+    color: #fff;
+}
+
 .header-index {
     position: relative;
     background-color: black;
