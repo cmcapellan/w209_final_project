@@ -13,15 +13,16 @@ img {
 .butt{
     background: gray
 }
-.x-axis path, .x-axis line{
+#x-axis path, #x-axis line{
     fill: none;
     stroke: #fff;
     shape-rendering: crispEdges;
 }
 
-.x-axis-label{
+#x-axis-label{
     font: 16px sans-serif;
     color: #fff;
+    opacity: 1;
 }
 
 .header-index {
