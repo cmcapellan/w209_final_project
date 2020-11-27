@@ -1,185 +1,230 @@
-Row,Start,End,Launch Vehicle,Mission,Program,DurationDays,DurationHours,DurationMins,DurationSecs
-4216,"Fri May 05, 1961 14:34 UTC","Fri May 05, 1961 14:49:37 UTC",Redstone,Freedom 7 (MR-3),Mercury,0d,0h,15m,37s
-4208,"Fri Jul 21, 1961 12:36 UTC","Fri Jul 21, 1961 12:51:22 UTC",Redstone,Liberty Bell 7 (MR-4),Mercury,0d,0h,15m,22s
-4177,"Tue Feb 20, 1962 14:47 UTC","Thu Feb 22, 1962 01:06:49 UTC",Atlas-D,Friendship 7 (MA-6),Mercury,1d,10h,19m,49s
-4157,"Thu May 24, 1962 12:45 UTC","Thu May 24, 1962 21:58:15 UTC",Atlas-D,Aurora 7 (MA-7),Mercury,0d,9h,13m,15s
-4122,"Wed Oct 03, 1962 09:13 UTC","Wed Oct 03, 1962 14:09:05 UTC",Atlas-D,Sigma 7 (MA-8),Mercury,0d,4h,56m,5s
-4087,"Wed May 15, 1963 13:04 UTC","Wed May 15, 1963 17:59:23 UTC",Atlas-D,Faith 7 (MA-9),Mercury,0d,4h,55m,23s
-3978,"Tue Mar 23, 1965 14:24 UTC","Tue Mar 23, 1965 19:16:31 UTC",Titan II,Gemini 3,Gemini,00d,04h,52m,31s
-3964,"Thu Jun 03, 1965 15:15 UTC","Mon Jun 07, 1965 17:11:12 UTC",Titan II,Gemini IV,Gemini,04d,01h,56m,12s
-3945,"Sat Aug 21, 1965 13:59 UTC","Sun Aug 29, 1965 12:54:14 UTC",Titan II,Gemini V,Gemini,07d,22h,55m,14s
-3920,"Sat Dec 04, 1965 19:30 UTC","Sat Dec 18, 1965 14:05:01 UTC",Titan II,Gemini VII,Gemini,13d,18h,35m,01s
-3918,"Wed Dec 15, 1965 13:37 UTC","Thu Dec 16, 1965 15:28:24 UTC",Titan II,Gemini VI-A,Gemini,01d,01h,51m,24s
-3879,"Mon May 16, 1966 16:41 UTC","Tue May 17, 1966 03:22:26 UTC",Titan II,Gemini VIII,Gemini,00d,10h,41m,26s
-3873,"Fri Jun 03, 1966 13:39 UTC","Mon Jun 06, 1966 13:59:50 UTC",Titan II,Gemini IX-A,Gemini,03d,00h,20m,50s
-3858,"Mon Jul 18, 1966 22:20 UTC","Thu Jul 21, 1966 21:06:39 UTC",Titan II,Gemini X,Gemini,02d,22h,46m,39s
-3845,"Mon Sep 12, 1966 14:42 UTC","Thu Sep 15, 1966 13:59:09 UTC",Titan II,Gemini XI,Gemini,02d,23h,17m,09s
-3826,"Fri Nov 11, 1966 20:46 UTC","Tue Nov 15, 1966 19:20:31 UTC",Titan II,Gemini XII,Gemini,03d,22h,34m,31s
-3626,"Fri Oct 11, 1968 15:02 UTC","Tue Oct 22, 1968 11:11:03 UTC",Saturn IB,Apollo 7,Apollo,10d,20h,09m,03s
-3603,"Sat Dec 21, 1968 12:51 UTC","Fri Dec 27, 1968 15:51:42 UTC",Saturn V,Apollo 8,Apollo,06d,03h,00m,42s
-3584,"Mon Mar 03, 1969 16:00 UTC","Thu Mar 13, 1969 17:00:54 UTC",Saturn V,Apollo 9,Apollo,10d,01h,00m,54s
-3560,"Sun May 18, 1969 16:49 UTC","Mon May 26, 1969 16:52:23 UTC",Saturn V,Apollo 10,Apollo,08d,00h,03m,23s
-3545,"Wed Jul 16, 1969 13:32 UTC","Thu Jul 24, 1969 16:50:35 UTC",Saturn V,Apollo 11,Apollo,08d,03h,18m,35s
-3511,"Fri Nov 14, 1969 16:22 UTC","Mon Nov 24, 1969 20:58:24 UTC",Saturn V,Apollo 12,Apollo,10d,04h,36m,24s
-3475,"Sat Apr 11, 1970 19:13 UTC","Fri Apr 17, 1970 18:07:41 UTC",Saturn V,Apollo 13,Apollo,05d,22h,54m,41s
-3384,"Sun Jan 31, 1971 21:03 UTC","Tue Feb 09, 1971 21:04:58 UTC",Saturn V,Apollo 14,Apollo,09d,00h,01m,58s
-3328,"Mon Jul 26, 1971 13:34 UTC","Sat Aug 07, 1971 20:45:53 UTC",Saturn V,Apollo 15,Apollo,12d,07h,11m,53s
-3243,"Sun Apr 16, 1972 17:54 UTC","Thu Apr 27, 1972 19:45:05 UTC",Saturn V,Apollo 16,Apollo,11d,01h,51m,05s
-3180,"Tue Dec 19, 1972 19:24 UTC","Mon Jan 01, 1973 09:15:59 UTC",Saturn V,Apollo 17,Apollo,12d,13h,51m,59s
-3141,"Fri May 25, 1973 13:00 UTC","Fri Jun 22, 1973 13:49:49 UTC",Saturn IB,Skylab 2,Skylab,28d,00h,49m,49s
-3123,"Sat Jul 28, 1973 11:10 UTC","Tue Sep 25, 1973 22:19:34 UTC",Saturn IB,Skylab 3,Skylab,59d,11h,09m,34s
-3088,"Fri Nov 16, 1973 14:01 UTC","Fri Feb 08, 1974 15:16:31 UTC",Saturn IB,Skylab 4,Skylab,84d,01h,15m,31s
-2911,"Tue Jul 15, 1975 19:50 UTC","Thu Jul 24, 1975 21:18:00 UTC",Saturn IB,ASTP (Apollo-Soyuz Test Project),Skylab,09d,01h,28m,0s
-2408,"Sun Apr 12, 1981 12:00 UTC","Tue Apr 14, 1981 18:00:00 UTC",Columbia,STS-1,Space Shuttle,02d,06h,0m,0s
-2371,"Thu Nov 12, 1981 15:09 UTC","Sat Nov 14, 1981 21:09:00 UTC",Columbia,STS-2,Space Shuttle,02d,06h,0m,0s
-2348,"Mon Mar 22, 1982 16:00 UTC","Tue Mar 30, 1982 16:00:00 UTC",Columbia,STS-3,Space Shuttle,08d,00h,0m,0s
-2323,"Sun Jun 27, 1982 16:09 UTC","Sun Jul 04, 1982 17:09:00 UTC",Columbia,STS-4,Space Shuttle,07d,01h,0m,0s
-2300,"Thu Nov 11, 1982 12:19 UTC","Tue Nov 16, 1982 14:19:00 UTC",Columbia,STS-5,Space Shuttle,05d,02h,0m,0s
-2278,"Mon Apr 04, 1983 18:30 UTC","Sat Apr 09, 1983 18:30:00 UTC",Challenger,STS-6,Space Shuttle,05d,00h,0m,0s
-2261,"Sat Jun 18, 1983 11:33 UTC","Fri Jun 24, 1983 13:33:00 UTC",Challenger,STS-7,Space Shuttle,06d,02h,0m,0s
-2246,"Mon Sep 05, 1983 07:40 UTC","Sun Sep 11, 1983 08:40:00 UTC",Challenger,STS-8,Space Shuttle,06d,01h,0m,0s
-2233,"Mon Nov 28, 1983 16:00 UTC","Thu Dec 08, 1983 23:00:00 UTC",Columbia,STS-9,Space Shuttle,10d,07h,0m,0s
-2220,"Fri Feb 03, 1984 13:00 UTC","Sat Feb 11, 1984 12:00:00 UTC",Challenger,STS-41-B,Space Shuttle,07d,23h,0m,0s
-2210,"Fri Apr 06, 1984 13:58 UTC","Fri Apr 13, 1984 12:58:00 UTC",Challenger,STS-41-C,Space Shuttle,06d,23h,0m,0s
-2180,"Thu Aug 30, 1984 12:41 UTC","Wed Sep 05, 1984 12:41:00 UTC",Discovery,STS-41-D,Space Shuttle,06d,00h,0m,0s
-2172,"Fri Oct 05, 1984 11:03 UTC","Sat Oct 13, 1984 16:03:00 UTC",Challenger,STS-41-G,Space Shuttle,08d,05h,0m,0s
-2168,"Thu Nov 08, 1984 12:15 UTC","Fri Nov 16, 1984 11:15:00 UTC",Discovery,STS-51-A,Space Shuttle,07d,23h,0m,0s
-2153,"Thu Jan 24, 1985 19:50 UTC","Sun Jan 27, 1985 20:50:00 UTC",Discovery,STS-51-C,Space Shuttle,03d,01h,0m,0s
-2141,"Fri Apr 12, 1985 13:59 UTC","Fri Apr 19, 1985 12:59:00 UTC",Discovery,STS-51-D,Space Shuttle,06d,23h,0m,0s
-2136,"Mon May 06, 1985 16:02 UTC","Mon May 13, 1985 16:02:00 UTC",Challenger,STS-51-B,Space Shuttle,07d,00h,0m,0s
-2129,"Mon Jun 17, 1985 11:33 UTC","Mon Jun 24, 1985 12:33:00 UTC",Discovery,STS-51-G,Space Shuttle,07d,01h,0m,0s
-2121,"Thu Jul 25, 1985 21:00 UTC","Fri Aug 02, 1985 19:00:00 UTC",Challenger,STS-51-F,Space Shuttle,07d,22h,0m,0s
-2115,"Tue Aug 27, 1985 10:58 UTC","Tue Sep 03, 1985 12:58:00 UTC",Discovery,STS-51-I,Space Shuttle,07d,02h,0m,0s
-2104,"Thu Oct 03, 1985 15:15 UTC","Mon Oct 07, 1985 16:15:00 UTC",Atlantis,STS-51-J,Space Shuttle,04d,01h,0m,0s
-2094,"Wed Nov 06, 1985 17:00 UTC","Wed Nov 13, 1985 17:00:00 UTC",Challenger,STS-61-A,Space Shuttle,07d,00h,0m,0s
-2091,"Wed Nov 27, 1985 00:29 UTC","Tue Dec 03, 1985 21:29:00 UTC",Atlantis,STS-61-B,Space Shuttle,06d,21h,0m,0s
-2083,"Sun Jan 12, 1986 11:55 UTC","Sat Jan 18, 1986 13:55:00 UTC",Columbia,STS-61-C,Space Shuttle,06d,02h,0m,0s
-2079,"Tue Jan 28, 1986 16:38 UTC","Tue Jan 28, 1986 16:39:13 UTC",Challenger,STS-51-L,Space Shuttle,00d,00h,01m,13s
-1922,"Thu Sep 29, 1988 15:37 UTC","Mon Oct 03, 1988 16:37:00 UTC",Discovery,STS-26R,Space Shuttle,04d,01h,0m,0s
-1913,"Fri Dec 02, 1988 14:30 UTC","Tue Dec 06, 1988 23:30:00 UTC",Atlantis,STS-27R,Space Shuttle,04d,09h,0m,0s
-1896,"Mon Mar 13, 1989 14:57 UTC","Sat Mar 18, 1989 13:57:00 UTC",Discovery,STS-29R,Space Shuttle,04d,23h,0m,0s
-1891,"Thu May 04, 1989 18:46 UTC","Mon May 08, 1989 18:46:00 UTC",Atlantis,STS-30R,Space Shuttle,04d,00h,0m,0s
-1877,"Tue Aug 08, 1989 12:37 UTC","Sun Aug 13, 1989 13:37:00 UTC",Columbia,STS-28R,Space Shuttle,05d,01h,0m,0s
-1864,"Wed Oct 18, 1989 16:53 UTC","Mon Oct 23, 1989 15:53:00 UTC",Atlantis,STS-34R,Space Shuttle,04d,23h,0m,0s
-1861,"Thu Nov 23, 1989 00:23 UTC","Tue Nov 28, 1989 00:23:00 UTC",Discovery,STS-33R,Space Shuttle,05d,00h,0m,0s
-1854,"Tue Jan 09, 1990 12:35 UTC","Sat Jan 20, 1990 09:35:00 UTC",Columbia,STS-32,Space Shuttle,10d,21h,0m,0s
-1838,"Wed Feb 28, 1990 07:50 UTC","Sun Mar 04, 1990 17:50:00 UTC",Atlantis,STS-36,Space Shuttle,04d,10h,0m,0s
-1825,"Tue Apr 24, 1990 12:33 UTC","Sun Apr 29, 1990 13:33:00 UTC",Discovery,STS-31,Space Shuttle,05d,01h,0m,0s
-1793,"Sat Oct 06, 1990 11:47 UTC","Wed Oct 10, 1990 13:47:00 UTC",Discovery,STS-41,Space Shuttle,04d,02h,0m,0s
-1787,"Thu Nov 15, 1990 23:48 UTC","Tue Nov 20, 1990 20:48:00 UTC",Atlantis,STS-38,Space Shuttle,04d,21h,0m,0s
-1779,"Sun Dec 02, 1990 06:49 UTC","Tue Dec 11, 1990 05:49:00 UTC",Columbia,STS-35,Space Shuttle,08d,23h,0m,0s
-1760,"Fri Apr 05, 1991 14:22 UTC","Thu Apr 11, 1991 13:22:00 UTC",Atlantis,STS-37,Space Shuttle,05d,23h,0m,0s
-1755,"Sun Apr 28, 1991 11:33 UTC","Mon May 06, 1991 18:33:00 UTC",Discovery,STS-39,Space Shuttle,08d,07h,0m,0s
-1750,"Wed Jun 05, 1991 13:24 UTC","Fri Jun 14, 1991 15:24:00 UTC",Columbia,STS-40,Space Shuttle,09d,02h,0m,0s
-1741,"Fri Aug 02, 1991 15:02 UTC","Sun Aug 11, 1991 12:02:00 UTC",Atlantis,STS-43,Space Shuttle,08d,21h,0m,0s
-1732,"Thu Sep 12, 1991 23:11 UTC","Wed Sep 18, 1991 07:11:00 UTC",Discovery,STS-48,Space Shuttle,05d,08h,0m,0s
-1724,"Sun Nov 24, 1991 23:44 UTC","Sun Dec 01, 1991 21:44:00 UTC",Atlantis,STS-44,Space Shuttle,06d,22h,0m,0s
-1716,"Wed Jan 22, 1992 14:52 UTC","Thu Jan 30, 1992 15:52:00 UTC",Discovery,STS-42,Space Shuttle,08d,01h,0m,0s
-1705,"Tue Mar 24, 1992 13:13 UTC","Thu Apr 02, 1992 11:13:00 UTC",Atlantis,STS-45,Space Shuttle,08d,22h,0m,0s
-1700,"Thu May 07, 1992 23:40 UTC","Sat May 16, 1992 20:40:00 UTC",Endeavour,STS-49,Space Shuttle,08d,21h,0m,0s
-1695,"Thu Jun 25, 1992 16:12 UTC","Thu Jul 09, 1992 11:12:00 UTC",Columbia,STS-50,Space Shuttle,13d,19h,0m,0s
-1686,"Fri Jul 31, 1992 13:56 UTC","Sat Aug 08, 1992 12:56:00 UTC",Atlantis,STS-46,Space Shuttle,07d,23h,0m,0s
-1677,"Sat Sep 12, 1992 14:23 UTC","Sun Sep 20, 1992 12:23:00 UTC",Endeavour,STS-47,Space Shuttle,07d,22h,0m,0s
-1671,"Thu Oct 22, 1992 17:09 UTC","Sun Nov 01, 1992 13:09:00 UTC",Columbia,STS-52,Space Shuttle,09d,20h,0m,0s
-1660,"Wed Dec 02, 1992 13:24 UTC","Wed Dec 09, 1992 20:24:00 UTC",Discovery,STS-53,Space Shuttle,07d,07h,0m,0s
-1652,"Wed Jan 13, 1993 13:59 UTC","Tue Jan 19, 1993 12:59:00 UTC",Endeavour,STS-54,Space Shuttle,05d,23h,0m,0s
-1638,"Thu Apr 08, 1993 05:29 UTC","Sat Apr 17, 1993 11:29:00 UTC",Discovery,STS-56,Space Shuttle,09d,06h,0m,0s
-1633,"Mon Apr 26, 1993 14:50 UTC","Thu May 06, 1993 13:50:00 UTC",Columbia,STS-55,Space Shuttle,09d,23h,0m,0s
-1626,"Mon Jun 21, 1993 13:07 UTC","Thu Jul 01, 1993 12:07:00 UTC",Endeavour,STS-57,Space Shuttle,09d,23h,0m,0s
-1612,"Sun Sep 12, 1993 11:45 UTC","Wed Sep 22, 1993 07:45:00 UTC",Discovery,STS-51,Space Shuttle,09d,20h,0m,0s
-1605,"Mon Oct 18, 1993 14:53 UTC","Mon Nov 01, 1993 14:53:00 UTC",Columbia,STS-58,Space Shuttle,14d,00h,0m,0s
-1598,"Thu Dec 02, 1993 09:27 UTC","Mon Dec 13, 1993 04:27:00 UTC",Endeavour,STS-61,Space Shuttle,10d,19h,0m,0s
-1590,"Thu Feb 03, 1994 12:10 UTC","Thu Feb 10, 1994 18:10:00 UTC",Discovery,STS-60,Space Shuttle,07d,06h,0m,0s
-1584,"Fri Mar 04, 1994 13:53 UTC","Fri Mar 18, 1994 12:53:00 UTC",Columbia,STS-62,Space Shuttle,13d,23h,0m,0s
-1580,"Sat Apr 09, 1994 11:05 UTC","Wed Apr 20, 1994 16:05:00 UTC",Endeavour,STS-59,Space Shuttle,11d,05h,0m,0s
-1568,"Fri Jul 08, 1994 04:43 UTC","Fri Jul 22, 1994 21:43:00 UTC",Columbia,STS-65,Space Shuttle,14d,17h,0m,0s
-1552,"Fri Sep 09, 1994 22:22 UTC","Tue Sep 20, 1994 20:22:00 UTC",Discovery,STS-64,Space Shuttle,10d,22h,0m,0s
-1550,"Fri Sep 30, 1994 11:16 UTC","Tue Oct 11, 1994 16:16:00 UTC",Endeavour,STS-68,Space Shuttle,11d,05h,0m,0s
-1542,"Thu Nov 03, 1994 16:59 UTC","Mon Nov 14, 1994 14:59:00 UTC",Atlantis,STS-66,Space Shuttle,10d,22h,0m,0s
-1524,"Fri Feb 03, 1995 05:22 UTC","Sat Feb 11, 1995 11:22:00 UTC",Discovery,STS-63,Space Shuttle,08d,06h,0m,0s
-1523,"Thu Mar 02, 1995 06:38 UTC","Sat Mar 18, 1995 21:38:00 UTC",Endeavour,STS-67,Space Shuttle,16d,15h,0m,0s
-1503,"Tue Jun 27, 1995 19:32 UTC","Fri Jul 07, 1995 14:32:00 UTC",Atlantis,STS-71,Space Shuttle,09d,19h,0m,0s
-1499,"Thu Jul 13, 1995 13:41 UTC","Sat Jul 22, 1995 11:41:00 UTC",Discovery,STS-70,Space Shuttle,08d,22h,0m,0s
-1489,"Thu Sep 07, 1995 15:09 UTC","Mon Sep 18, 1995 11:09:00 UTC",Endeavour,STS-69,Space Shuttle,10d,20h,0m,0s
-1485,"Fri Oct 20, 1995 13:53 UTC","Sun Nov 05, 1995 10:53:00 UTC",Columbia,STS-73,Space Shuttle,15d,21h,0m,0s
-1479,"Sun Nov 12, 1995 12:30 UTC","Mon Nov 20, 1995 16:30:00 UTC",Atlantis,STS-74,Space Shuttle,08d,04h,0m,0s
-1468,"Thu Jan 11, 1996 09:41 UTC","Sat Jan 20, 1996 07:41:00 UTC",Endeavour,STS-72,Space Shuttle,08d,22h,0m,0s
-1459,"Thu Feb 22, 1996 20:18 UTC","Sat Mar 09, 1996 13:18:00 UTC",Columbia,STS-75,Space Shuttle,15d,17h,0m,0s
-1454,"Fri Mar 22, 1996 08:13 UTC","Sun Mar 31, 1996 13:13:00 UTC",Atlantis,STS-76,Space Shuttle,09d,05h,0m,0s
-1443,"Sun May 19, 1996 10:30 UTC","Wed May 29, 1996 10:30:00 UTC",Endeavour,STS-77,Space Shuttle,10d,00h,0m,0s
-1439,"Thu Jun 20, 1996 14:49 UTC","Sun Jul 07, 1996 11:49:00 UTC",Columbia,STS-78,Space Shuttle,16d,21h,0m,0s
-1421,"Mon Sep 16, 1996 08:54 UTC","Thu Sep 26, 1996 11:54:00 UTC",Atlantis,STS-79,Space Shuttle,10d,03h,0m,0s
-1413,"Sat Dec 07, 1996 11:49 UTC","Wed Dec 25, 1996 02:49:00 UTC",Columbia,STS-80,Space Shuttle,17d,15h,0m,0s
-1408,"Sun Jan 12, 1997 09:27 UTC","Wed Jan 22, 1997 13:27:00 UTC",Atlantis,STS-81,Space Shuttle,10d,04h,0m,0s
-1405,"Tue Feb 11, 1997 08:55 UTC","Fri Feb 21, 1997 07:55:00 UTC",Discovery,STS-82,Space Shuttle,09d,23h,0m,0s
-1396,"Fri Apr 04, 1997 19:20 UTC","Tue Apr 08, 1997 18:20:00 UTC",Columbia,STS-83,Space Shuttle,03d,23h,0m,0s
-1388,"Thu May 15, 1997 08:07 UTC","Sat May 24, 1997 13:07:00 UTC",Atlantis,STS-84,Space Shuttle,09d,05h,0m,0s
-1382,"Tue Jul 01, 1997 18:02 UTC","Thu Jul 17, 1997 10:02:00 UTC",Columbia,STS-94,Space Shuttle,15d,16h,0m,0s
-1377,"Thu Aug 07, 1997 14:41 UTC","Tue Aug 19, 1997 10:41:00 UTC",Discovery,STS-85,Space Shuttle,11d,20h,0m,0s
-1364,"Thu Sep 25, 1997 14:34 UTC","Mon Oct 06, 1997 09:34:00 UTC",Atlantis,STS-86,Space Shuttle,10d,19h,0m,0s
-1350,"Wed Nov 19, 1997 19:46 UTC","Fri Dec 05, 1997 11:46:00 UTC",Columbia,STS-87,Space Shuttle,15d,16h,0m,0s
-1336,"Thu Jan 22, 1998 02:48 UTC","Fri Jan 30, 1998 21:48:00 UTC",Endeavour,STS-89,Space Shuttle,08d,19h,0m,0s
-1320,"Fri Apr 17, 1998 18:19 UTC","Sun May 03, 1998 15:19:00 UTC",Columbia,STS-90,Space Shuttle,15d,21h,0m,0s
-1311,"Tue Jun 02, 1998 22:06 UTC","Fri Jun 12, 1998 17:06:00 UTC",Discovery,STS-91,Space Shuttle,09d,19h,0m,0s
-1281,"Thu Oct 29, 1998 19:19 UTC","Sat Nov 07, 1998 16:19:00 UTC",Discovery,STS-95,Space Shuttle,08d,21h,0m,0s
-1278,"Fri Dec 04, 1998 08:35 UTC","Wed Dec 16, 1998 03:35:00 UTC",Endeavour,STS-88,Space Shuttle,11d,19h,0m,0s
-1250,"Thu May 27, 1999 10:49 UTC","Sun Jun 06, 1999 05:49:00 UTC",Discovery,STS-96,Space Shuttle,09d,19h,0m,0s
-1241,"Fri Jul 23, 1999 04:31 UTC","Wed Jul 28, 1999 02:31:00 UTC",Columbia,STS-93,Space Shuttle,04d,22h,0m,0s
-1218,"Mon Dec 20, 1999 00:50 UTC","Mon Dec 27, 1999 23:50:00 UTC",Discovery,STS-103,Space Shuttle,07d,23h,0m,0s
-1206,"Fri Feb 11, 2000 16:43 UTC","Tue Feb 22, 2000 21:43:00 UTC",Endeavour,STS-99,Space Shuttle,11d,05h,0m,0s
-1194,"Fri May 19, 2000 10:11 UTC","Mon May 29, 2000 07:11:00 UTC",Atlantis,STS-101,Space Shuttle,09d,21h,0m,0s
-1179,"Fri Sep 08, 2000 12:45 UTC","Wed Sep 20, 2000 07:45:00 UTC",Atlantis,STS-106,Space Shuttle,11d,19h,0m,0s
-1172,"Wed Oct 11, 2000 23:17 UTC","Tue Oct 24, 2000 20:17:00 UTC",Discovery,STS-92,Space Shuttle,12d,21h,0m,0s
-1162,"Thu Nov 30, 2000 03:06 UTC","Sun Dec 10, 2000 22:06:00 UTC",Endeavour,STS-97,Space Shuttle,10d,19h,0m,0s
-1152,"Wed Feb 07, 2001 23:13 UTC","Tue Feb 20, 2001 20:13:00 UTC",Atlantis,STS-98,Space Shuttle,12d,21h,0m,0s
-1149,"Thu Mar 08, 2001 11:42 UTC","Wed Mar 21, 2001 06:42:00 UTC",Discovery,STS-102,Space Shuttle,12d,19h,0m,0s
-1144,"Thu Apr 19, 2001 18:40 UTC","Tue May 01, 2001 15:40:00 UTC",Endeavour,STS-100,Space Shuttle,11d,21h,0m,0s
-1137,"Thu Jul 12, 2001 09:03 UTC","Wed Jul 25, 2001 03:03:00 UTC",Atlantis,STS-104,Space Shuttle,12d,18h,0m,0s
-1131,"Fri Aug 10, 2001 21:10 UTC","Wed Aug 22, 2001 18:10:00 UTC",Discovery,STS-105,Space Shuttle,11d,21h,0m,0s
-1118,"Wed Dec 05, 2001 22:19 UTC","Mon Dec 17, 2001 17:19:00 UTC",Endeavour,STS-108,Space Shuttle,11d,19h,0m,0s
-1105,"Fri Mar 01, 2002 11:22 UTC","Tue Mar 12, 2002 09:22:00 UTC",Columbia,STS-109,Space Shuttle,10d,22h,0m,0s
-1099,"Mon Apr 08, 2002 20:44 UTC","Fri Apr 19, 2002 15:44:00 UTC",Atlantis,STS-110,Space Shuttle,10d,19h,0m,0s
-1092,"Wed Jun 05, 2002 21:22 UTC","Wed Jun 19, 2002 17:22:00 UTC",Endeavour,STS-111,Space Shuttle,13d,20h,0m,0s
-1076,"Mon Oct 07, 2002 19:45 UTC","Fri Oct 18, 2002 14:45:00 UTC",Atlantis,STS-112,Space Shuttle,10d,19h,0m,0s
-1073,"Sun Nov 24, 2002 00:49 UTC","Sat Dec 07, 2002 18:49:00 UTC",Endeavour,STS-113,Space Shuttle,13d,18h,0m,0s
-1062,"Thu Jan 16, 2003 15:39 UTC","Sat Feb 01, 2003 13:39:00 UTC",Columbia,STS-107,Space Shuttle,15d,22h,0m,0s
-953,"Tue Jul 26, 2005 14:39 UTC","Tue Aug 09, 2005 11:39:00 UTC",Discovery,STS-114,Space Shuttle,13d,21h,0m,0s
-914,"Tue Jul 04, 2006 18:37 UTC","Mon Jul 17, 2006 12:37:00 UTC",Discovery,STS-121,Space Shuttle,12d,18h,0m,0s
-905,"Sat Sep 09, 2006 15:14 UTC","Thu Sep 21, 2006 10:14:00 UTC",Atlantis,STS-115,Space Shuttle,11d,19h,0m,0s
-891,"Sun Dec 10, 2006 00:47 UTC","Fri Dec 22, 2006 21:47:00 UTC",Discovery,STS-116,Space Shuttle,12d,21h,0m,0s
-867,"Fri Jun 08, 2007 23:38 UTC","Fri Jun 22, 2007 19:38:00 UTC",Atlantis,STS-117,Space Shuttle,13d,20h,0m,0s
-858,"Wed Aug 08, 2007 22:36 UTC","Tue Aug 21, 2007 16:36:00 UTC",Endeavour,STS-118,Space Shuttle,12d,18h,0m,0s
-847,"Tue Oct 23, 2007 03:38 UTC","Wed Nov 07, 2007 05:38:00 UTC",Discovery,STS-120,Space Shuttle,15d,02h,0m,0s
-834,"Thu Feb 07, 2008 19:45 UTC","Wed Feb 20, 2008 13:45:00 UTC",Atlantis,STS-122,Space Shuttle,12d,18h,0m,0s
-831,"Tue Mar 11, 2008 06:28 UTC","Thu Mar 27, 2008 00:28:00 UTC",Endeavour,STS-123,Space Shuttle,15d,18h,0m,0s
-817,"Sat May 31, 2008 21:02 UTC","Sat Jun 14, 2008 15:02:00 UTC",Discovery,STS-124,Space Shuttle,13d,18h,0m,0s
-791,"Sat Nov 15, 2008 00:55 UTC","Sun Nov 30, 2008 20:55:00 UTC",Endeavour,STS-126,Space Shuttle,15d,20h,0m,0s
-779,"Sun Mar 15, 2009 23:43 UTC","Sat Mar 28, 2009 18:43:00 UTC",Discovery,STS-119,Space Shuttle,12d,19h,0m,0s
-771,"Mon May 11, 2009 18:01 UTC","Sun May 24, 2009 15:01:00 UTC",Atlantis,STS-125,Space Shuttle,12d,21h,0m,0s
-762,"Wed Jul 15, 2009 22:03 UTC","Fri Jul 31, 2009 14:03:00 UTC",Endeavour,STS-127,Space Shuttle,15d,16h,0m,0s
-756,"Fri Aug 28, 2009 03:59 UTC","Fri Sep 11, 2009 00:59:00 UTC",Discovery,STS-128,Space Shuttle,13d,21h,0m,0s
-745,"Mon Nov 16, 2009 19:28 UTC","Fri Nov 27, 2009 14:28:00 UTC",Atlantis,STS-129,Space Shuttle,10d,19h,0m,0s
-737,"Mon Feb 08, 2010 09:14 UTC","Mon Feb 22, 2010 03:14:00 UTC",Endeavour,STS-130,Space Shuttle,13d,18h,0m,0s
-734,"Fri Apr 02, 2010 04:04 UTC","Sat Sep 25, 2010 04:04:00 UTC",Soyuz FG,Soyuz TMA-18,ISS,176d,0h,0m,0s
-733,"Mon Apr 05, 2010 10:21 UTC","Tue Apr 20, 2010 13:21:00 UTC",Discovery,STS-131,Space Shuttle,15d,03h,0m,0s
-726,"Fri May 14, 2010 18:20 UTC","Wed May 26, 2010 12:20:00 UTC",Atlantis,STS-132,Space Shuttle,11d,18h,0m,0s
-695,"Thu Feb 24, 2011 21:53 UTC","Wed Mar 09, 2011 16:53:00 UTC",Discovery,STS-133,Space Shuttle,12d,19h,0m,0s
-687,"Mon May 16, 2011 12:56 UTC","Wed Jun 01, 2011 06:56:00 UTC",Endeavour,STS-134,Space Shuttle,15d,18h,0m,0s
-682,"Fri Jul 08, 2011 15:29 UTC","Thu Jul 21, 2011 09:29:00 UTC",Atlantis,STS-135,Space Shuttle,12d,18h,0m,0s
-452,"Fri Mar 18, 2016 21:26 UTC","Tue Sep 06, 2016 21:26:00 UTC",Soyuz FG,Soyuz TMA-20M,ISS,172d,0h,0m,0s
-424,"Thu Jul 07, 2016 01:36 UTC","Sun Oct 30, 2016 01:36:00 UTC",Soyuz FG,Soyuz MS-01,ISS,115d,0h,0m,0s
-402,"Wed Oct 19, 2016 08:05 UTC","Mon Apr 10, 2017 08:05:00 UTC",Soyuz FG,Soyuz MS-02,ISS,173d,0h,0m,0s
-395,"Thu Nov 17, 2016 20:20 UTC","Fri Jun 02, 2017 20:20:00 UTC",Soyuz FG,Soyuz MS-03,ISS,197d,0h,0m,0s
-360,"Thu Apr 20, 2017 07:13 UTC","Sat Sep 02, 2017 07:13:00 UTC",Soyuz FG,Soyuz MS-04 (50S),ISS,135d,0h,0m,0s
-334,"Fri Jul 28, 2017 15:41 UTC","Thu Dec 14, 2017 15:41:00 UTC",Soyuz FG,Soyuz MS-05 (51S),ISS,139d,0h,0m,0s
-332,"Sat Sep 12, 2017 21:17 UTC","Tue Feb 27, 2018 21:17:00 UTC",Soyuz FG,Soyuz MS-06 (52S),ISS,168d,0h,0m,0s
-294,"Sun Dec 17, 2017 07:21 UTC","Sun Jun 03, 2018 07:21:00 UTC",Soyuz FG,Soyuz MS-07 (53S),ISS,168d,0h,0m,0s
-263,"Wed Mar 21, 2018 17:44 UTC","Wed Oct 03, 2018 17:44:00 UTC",Soyuz FG,Soyuz MS-08 (54S),ISS,196d,0h,0m,0s
-237,"Wed Jun 06, 2018 11:12 UTC","Thu Dec 20, 2018 11:12:00 UTC",Soyuz FG,Soyuz MS-09 (55S),ISS,197d,0h,0m,0s
-186,"Mon Dec 03, 2018 11:31 UTC","Mon Jun 24, 2019 11:31:00 UTC",Soyuz FG,Soyuz MS-11 (57S),ISS,203d,0h,0m,0s
-155,"Thu Mar 14, 2019 19:14 UTC","Wed Oct 02, 2019 19:14:00 UTC",Soyuz FG,Soyuz MS-12 (58S),ISS,202d,0h,0m,0s
-122,"Sat Jul 20, 2019 16:28 UTC","Wed Feb 05, 2020 16:28:00 UTC",Soyuz FG,Soyuz MS-13 (59S),ISS,200d,0h,0m,0s
-98,"Wed Sep 25, 2019 13:57 UTC","Fri Apr 17, 2020 13:57:00 UTC",Soyuz FG,Soyuz MS-15 (61S),ISS,205d,0h,0m,0s
-37,"Thu Apr 09, 2020 08:05 UTC","Wed Oct 21, 2020 08:05:00 UTC",Soyuz 2.1a,Soyuz MS-16,ISS,195d,0h,0m,0s
-30,"Sat May 30, 2020 19:22 UTC","Sun Aug 02, 2020 19:22:00 UTC",Dragon 2,DM-2,Commercial Crew Program,64d,0h,0m,0s
-29,"Sun Nov 16, 2020 00:30 UTC","Sun Jun 16, 2021 00:30:00 UTC",Dragon 2,Crew-1,Commercial Crew Program,180d,0h,0m,0s
+Row,Start,End,Launch Vehicle,Mission,Program,DurationDays,DurationHours,DurationMins,DurationSecs,,,
+4216,"Fri May 05, 1961 14:34 UTC","Fri May 05, 1961 14:49:37 UTC",Redstone,Freedom 7 (MR-3),Mercury,0d,0h,15m,37s,,,
+4208,"Fri Jul 21, 1961 12:36 UTC","Fri Jul 21, 1961 12:51:22 UTC",Redstone,Liberty Bell 7 (MR-4),Mercury,0d,0h,15m,22s,,,
+4177,"Tue Feb 20, 1962 14:47 UTC","Thu Feb 22, 1962 01:06:49 UTC",Atlas-D,Friendship 7 (MA-6),Mercury,1d,10h,19m,49s,,,
+4157,"Thu May 24, 1962 12:45 UTC","Thu May 24, 1962 21:58:15 UTC",Atlas-D,Aurora 7 (MA-7),Mercury,0d,9h,13m,15s,,,
+4122,"Wed Oct 03, 1962 09:13 UTC","Wed Oct 03, 1962 14:09:05 UTC",Atlas-D,Sigma 7 (MA-8),Mercury,0d,4h,56m,5s,,,
+4087,"Wed May 15, 1963 13:04 UTC","Wed May 15, 1963 17:59:23 UTC",Atlas-D,Faith 7 (MA-9),Mercury,0d,4h,55m,23s,,,
+3978,"Tue Mar 23, 1965 14:24 UTC","Tue Mar 23, 1965 19:16:31 UTC",Titan II,Gemini 3,Gemini,00d,04h,52m,31s,,,
+3964,"Thu Jun 03, 1965 15:15 UTC","Mon Jun 07, 1965 17:11:12 UTC",Titan II,Gemini IV,Gemini,04d,01h,56m,12s,,,
+3945,"Sat Aug 21, 1965 13:59 UTC","Sun Aug 29, 1965 12:54:14 UTC",Titan II,Gemini V,Gemini,07d,22h,55m,14s,,,
+3920,"Sat Dec 04, 1965 19:30 UTC","Sat Dec 18, 1965 14:05:01 UTC",Titan II,Gemini VII,Gemini,13d,18h,35m,01s,,,
+3918,"Wed Dec 15, 1965 13:37 UTC","Thu Dec 16, 1965 15:28:24 UTC",Titan II,Gemini VI-A,Gemini,01d,01h,51m,24s,,,
+3879,"Mon May 16, 1966 16:41 UTC","Tue May 17, 1966 03:22:26 UTC",Titan II,Gemini VIII,Gemini,00d,10h,41m,26s,,,
+3873,"Fri Jun 03, 1966 13:39 UTC","Mon Jun 06, 1966 13:59:50 UTC",Titan II,Gemini IX-A,Gemini,03d,00h,20m,50s,,,
+3858,"Mon Jul 18, 1966 22:20 UTC","Thu Jul 21, 1966 21:06:39 UTC",Titan II,Gemini X,Gemini,02d,22h,46m,39s,,,
+3845,"Mon Sep 12, 1966 14:42 UTC","Thu Sep 15, 1966 13:59:09 UTC",Titan II,Gemini XI,Gemini,02d,23h,17m,09s,,,
+3826,"Fri Nov 11, 1966 20:46 UTC","Tue Nov 15, 1966 19:20:31 UTC",Titan II,Gemini XII,Gemini,03d,22h,34m,31s,,,
+3626,"Fri Oct 11, 1968 15:02 UTC","Tue Oct 22, 1968 11:11:03 UTC",Saturn IB,Apollo 7,Apollo,10d,20h,09m,03s,,,
+3603,"Sat Dec 21, 1968 12:51 UTC","Fri Dec 27, 1968 15:51:42 UTC",Saturn V,Apollo 8,Apollo,06d,03h,00m,42s,,,
+3584,"Mon Mar 03, 1969 16:00 UTC","Thu Mar 13, 1969 17:00:54 UTC",Saturn V,Apollo 9,Apollo,10d,01h,00m,54s,,,
+3560,"Sun May 18, 1969 16:49 UTC","Mon May 26, 1969 16:52:23 UTC",Saturn V,Apollo 10,Apollo,08d,00h,03m,23s,,,
+3545,"Wed Jul 16, 1969 13:32 UTC","Thu Jul 24, 1969 16:50:35 UTC",Saturn V,Apollo 11,Apollo,08d,03h,18m,35s,,,
+3511,"Fri Nov 14, 1969 16:22 UTC","Mon Nov 24, 1969 20:58:24 UTC",Saturn V,Apollo 12,Apollo,10d,04h,36m,24s,,,
+3475,"Sat Apr 11, 1970 19:13 UTC","Fri Apr 17, 1970 18:07:41 UTC",Saturn V,Apollo 13,Apollo,05d,22h,54m,41s,,,
+3384,"Sun Jan 31, 1971 21:03 UTC","Tue Feb 09, 1971 21:04:58 UTC",Saturn V,Apollo 14,Apollo,09d,00h,01m,58s,,,
+3328,"Mon Jul 26, 1971 13:34 UTC","Sat Aug 07, 1971 20:45:53 UTC",Saturn V,Apollo 15,Apollo,12d,07h,11m,53s,,,
+3243,"Sun Apr 16, 1972 17:54 UTC","Thu Apr 27, 1972 19:45:05 UTC",Saturn V,Apollo 16,Apollo,11d,01h,51m,05s,,,
+3180,"Tue Dec 19, 1972 19:24 UTC","Mon Jan 01, 1973 09:15:59 UTC",Saturn V,Apollo 17,Apollo,12d,13h,51m,59s,,,
+3141,"Fri May 25, 1973 13:00 UTC","Fri Jun 22, 1973 13:49:49 UTC",Saturn IB,Skylab 2,Skylab,28d,00h,49m,49s,,,
+3123,"Sat Jul 28, 1973 11:10 UTC","Tue Sep 25, 1973 22:19:34 UTC",Saturn IB,Skylab 3,Skylab,59d,11h,09m,34s,,,
+3088,"Fri Nov 16, 1973 14:01 UTC","Fri Feb 08, 1974 15:16:31 UTC",Saturn IB,Skylab 4,Skylab,84d,01h,15m,31s,,,
+2911,"Tue Jul 15, 1975 19:50 UTC","Thu Jul 24, 1975 21:18:00 UTC",Saturn IB,ASTP (Apollo-Soyuz Test Project),Skylab,09d,01h,28m,0s,,,
+2408,"Sun Apr 12, 1981 12:00 UTC","Tue Apr 14, 1981 18:00:00 UTC",Columbia,STS-1,Space Shuttle,02d,06h,0m,0s,,,
+2371,"Thu Nov 12, 1981 15:09 UTC","Sat Nov 14, 1981 21:09:00 UTC",Columbia,STS-2,Space Shuttle,02d,06h,0m,0s,,,
+2348,"Mon Mar 22, 1982 16:00 UTC","Tue Mar 30, 1982 16:00:00 UTC",Columbia,STS-3,Space Shuttle,08d,00h,0m,0s,,,
+2323,"Sun Jun 27, 1982 16:09 UTC","Sun Jul 04, 1982 17:09:00 UTC",Columbia,STS-4,Space Shuttle,07d,01h,0m,0s,,,
+2300,"Thu Nov 11, 1982 12:19 UTC","Tue Nov 16, 1982 14:19:00 UTC",Columbia,STS-5,Space Shuttle,05d,02h,0m,0s,,,
+2278,"Mon Apr 04, 1983 18:30 UTC","Sat Apr 09, 1983 18:30:00 UTC",Challenger,STS-6,Space Shuttle,05d,00h,0m,0s,,,
+2261,"Sat Jun 18, 1983 11:33 UTC","Fri Jun 24, 1983 13:33:00 UTC",Challenger,STS-7,Space Shuttle,06d,02h,0m,0s,,,
+2246,"Mon Sep 05, 1983 07:40 UTC","Sun Sep 11, 1983 08:40:00 UTC",Challenger,STS-8,Space Shuttle,06d,01h,0m,0s,,,
+2233,"Mon Nov 28, 1983 16:00 UTC","Thu Dec 08, 1983 23:00:00 UTC",Columbia,STS-9,Space Shuttle,10d,07h,0m,0s,,,
+2220,"Fri Feb 03, 1984 13:00 UTC","Sat Feb 11, 1984 12:00:00 UTC",Challenger,STS-41-B,Space Shuttle,07d,23h,0m,0s,,,
+2210,"Fri Apr 06, 1984 13:58 UTC","Fri Apr 13, 1984 12:58:00 UTC",Challenger,STS-41-C,Space Shuttle,06d,23h,0m,0s,,,
+2180,"Thu Aug 30, 1984 12:41 UTC","Wed Sep 05, 1984 12:41:00 UTC",Discovery,STS-41-D,Space Shuttle,06d,00h,0m,0s,,,
+2172,"Fri Oct 05, 1984 11:03 UTC","Sat Oct 13, 1984 16:03:00 UTC",Challenger,STS-41-G,Space Shuttle,08d,05h,0m,0s,,,
+2168,"Thu Nov 08, 1984 12:15 UTC","Fri Nov 16, 1984 11:15:00 UTC",Discovery,STS-51-A,Space Shuttle,07d,23h,0m,0s,,,
+2153,"Thu Jan 24, 1985 19:50 UTC","Sun Jan 27, 1985 20:50:00 UTC",Discovery,STS-51-C,Space Shuttle,03d,01h,0m,0s,,,
+2141,"Fri Apr 12, 1985 13:59 UTC","Fri Apr 19, 1985 12:59:00 UTC",Discovery,STS-51-D,Space Shuttle,06d,23h,0m,0s,,,
+2136,"Mon May 06, 1985 16:02 UTC","Mon May 13, 1985 16:02:00 UTC",Challenger,STS-51-B,Space Shuttle,07d,00h,0m,0s,,,
+2129,"Mon Jun 17, 1985 11:33 UTC","Mon Jun 24, 1985 12:33:00 UTC",Discovery,STS-51-G,Space Shuttle,07d,01h,0m,0s,,,
+2121,"Thu Jul 25, 1985 21:00 UTC","Fri Aug 02, 1985 19:00:00 UTC",Challenger,STS-51-F,Space Shuttle,07d,22h,0m,0s,,,
+2115,"Tue Aug 27, 1985 10:58 UTC","Tue Sep 03, 1985 12:58:00 UTC",Discovery,STS-51-I,Space Shuttle,07d,02h,0m,0s,,,
+2104,"Thu Oct 03, 1985 15:15 UTC","Mon Oct 07, 1985 16:15:00 UTC",Atlantis,STS-51-J,Space Shuttle,04d,01h,0m,0s,,,
+2094,"Wed Nov 06, 1985 17:00 UTC","Wed Nov 13, 1985 17:00:00 UTC",Challenger,STS-61-A,Space Shuttle,07d,00h,0m,0s,,,
+2091,"Wed Nov 27, 1985 00:29 UTC","Tue Dec 03, 1985 21:29:00 UTC",Atlantis,STS-61-B,Space Shuttle,06d,21h,0m,0s,,,
+2083,"Sun Jan 12, 1986 11:55 UTC","Sat Jan 18, 1986 13:55:00 UTC",Columbia,STS-61-C,Space Shuttle,06d,02h,0m,0s,,,
+2079,"Tue Jan 28, 1986 16:38 UTC","Tue Jan 28, 1986 16:39:13 UTC",Challenger,STS-51-L,Space Shuttle,00d,00h,01m,13s,,,
+1922,"Thu Sep 29, 1988 15:37 UTC","Mon Oct 03, 1988 16:37:00 UTC",Discovery,STS-26R,Space Shuttle,04d,01h,0m,0s,,,
+1913,"Fri Dec 02, 1988 14:30 UTC","Tue Dec 06, 1988 23:30:00 UTC",Atlantis,STS-27R,Space Shuttle,04d,09h,0m,0s,,,
+1896,"Mon Mar 13, 1989 14:57 UTC","Sat Mar 18, 1989 13:57:00 UTC",Discovery,STS-29R,Space Shuttle,04d,23h,0m,0s,,,
+1891,"Thu May 04, 1989 18:46 UTC","Mon May 08, 1989 18:46:00 UTC",Atlantis,STS-30R,Space Shuttle,04d,00h,0m,0s,,,
+1877,"Tue Aug 08, 1989 12:37 UTC","Sun Aug 13, 1989 13:37:00 UTC",Columbia,STS-28R,Space Shuttle,05d,01h,0m,0s,,,
+1864,"Wed Oct 18, 1989 16:53 UTC","Mon Oct 23, 1989 15:53:00 UTC",Atlantis,STS-34R,Space Shuttle,04d,23h,0m,0s,,,
+1861,"Thu Nov 23, 1989 00:23 UTC","Tue Nov 28, 1989 00:23:00 UTC",Discovery,STS-33R,Space Shuttle,05d,00h,0m,0s,,,
+1854,"Tue Jan 09, 1990 12:35 UTC","Sat Jan 20, 1990 09:35:00 UTC",Columbia,STS-32,Space Shuttle,10d,21h,0m,0s,,,
+1838,"Wed Feb 28, 1990 07:50 UTC","Sun Mar 04, 1990 17:50:00 UTC",Atlantis,STS-36,Space Shuttle,04d,10h,0m,0s,,,
+1825,"Tue Apr 24, 1990 12:33 UTC","Sun Apr 29, 1990 13:33:00 UTC",Discovery,STS-31,Space Shuttle,05d,01h,0m,0s,,,
+1793,"Sat Oct 06, 1990 11:47 UTC","Wed Oct 10, 1990 13:47:00 UTC",Discovery,STS-41,Space Shuttle,04d,02h,0m,0s,,,
+1787,"Thu Nov 15, 1990 23:48 UTC","Tue Nov 20, 1990 20:48:00 UTC",Atlantis,STS-38,Space Shuttle,04d,21h,0m,0s,,,
+1779,"Sun Dec 02, 1990 06:49 UTC","Tue Dec 11, 1990 05:49:00 UTC",Columbia,STS-35,Space Shuttle,08d,23h,0m,0s,,,
+1760,"Fri Apr 05, 1991 14:22 UTC","Thu Apr 11, 1991 13:22:00 UTC",Atlantis,STS-37,Space Shuttle,05d,23h,0m,0s,,,
+1755,"Sun Apr 28, 1991 11:33 UTC","Mon May 06, 1991 18:33:00 UTC",Discovery,STS-39,Space Shuttle,08d,07h,0m,0s,,,
+1750,"Wed Jun 05, 1991 13:24 UTC","Fri Jun 14, 1991 15:24:00 UTC",Columbia,STS-40,Space Shuttle,09d,02h,0m,0s,,,
+1741,"Fri Aug 02, 1991 15:02 UTC","Sun Aug 11, 1991 12:02:00 UTC",Atlantis,STS-43,Space Shuttle,08d,21h,0m,0s,,,
+1732,"Thu Sep 12, 1991 23:11 UTC","Wed Sep 18, 1991 07:11:00 UTC",Discovery,STS-48,Space Shuttle,05d,08h,0m,0s,,,
+1724,"Sun Nov 24, 1991 23:44 UTC","Sun Dec 01, 1991 21:44:00 UTC",Atlantis,STS-44,Space Shuttle,06d,22h,0m,0s,,,
+1716,"Wed Jan 22, 1992 14:52 UTC","Thu Jan 30, 1992 15:52:00 UTC",Discovery,STS-42,Space Shuttle,08d,01h,0m,0s,,,
+1705,"Tue Mar 24, 1992 13:13 UTC","Thu Apr 02, 1992 11:13:00 UTC",Atlantis,STS-45,Space Shuttle,08d,22h,0m,0s,,,
+1700,"Thu May 07, 1992 23:40 UTC","Sat May 16, 1992 20:40:00 UTC",Endeavour,STS-49,Space Shuttle,08d,21h,0m,0s,,,
+1695,"Thu Jun 25, 1992 16:12 UTC","Thu Jul 09, 1992 11:12:00 UTC",Columbia,STS-50,Space Shuttle,13d,19h,0m,0s,,,
+1686,"Fri Jul 31, 1992 13:56 UTC","Sat Aug 08, 1992 12:56:00 UTC",Atlantis,STS-46,Space Shuttle,07d,23h,0m,0s,,,
+1677,"Sat Sep 12, 1992 14:23 UTC","Sun Sep 20, 1992 12:23:00 UTC",Endeavour,STS-47,Space Shuttle,07d,22h,0m,0s,,,
+1671,"Thu Oct 22, 1992 17:09 UTC","Sun Nov 01, 1992 13:09:00 UTC",Columbia,STS-52,Space Shuttle,09d,20h,0m,0s,,,
+1660,"Wed Dec 02, 1992 13:24 UTC","Wed Dec 09, 1992 20:24:00 UTC",Discovery,STS-53,Space Shuttle,07d,07h,0m,0s,,,
+1652,"Wed Jan 13, 1993 13:59 UTC","Tue Jan 19, 1993 12:59:00 UTC",Endeavour,STS-54,Space Shuttle,05d,23h,0m,0s,,,
+1638,"Thu Apr 08, 1993 05:29 UTC","Sat Apr 17, 1993 11:29:00 UTC",Discovery,STS-56,Space Shuttle,09d,06h,0m,0s,,,
+1633,"Mon Apr 26, 1993 14:50 UTC","Thu May 06, 1993 13:50:00 UTC",Columbia,STS-55,Space Shuttle,09d,23h,0m,0s,,,
+1626,"Mon Jun 21, 1993 13:07 UTC","Thu Jul 01, 1993 12:07:00 UTC",Endeavour,STS-57,Space Shuttle,09d,23h,0m,0s,,,
+1612,"Sun Sep 12, 1993 11:45 UTC","Wed Sep 22, 1993 07:45:00 UTC",Discovery,STS-51,Space Shuttle,09d,20h,0m,0s,,,
+1605,"Mon Oct 18, 1993 14:53 UTC","Mon Nov 01, 1993 14:53:00 UTC",Columbia,STS-58,Space Shuttle,14d,00h,0m,0s,,,
+1598,"Thu Dec 02, 1993 09:27 UTC","Mon Dec 13, 1993 04:27:00 UTC",Endeavour,STS-61,Space Shuttle,10d,19h,0m,0s,,,
+1590,"Thu Feb 03, 1994 12:10 UTC","Thu Feb 10, 1994 18:10:00 UTC",Discovery,STS-60,Space Shuttle,07d,06h,0m,0s,,,
+1584,"Fri Mar 04, 1994 13:53 UTC","Fri Mar 18, 1994 12:53:00 UTC",Columbia,STS-62,Space Shuttle,13d,23h,0m,0s,,,
+1580,"Sat Apr 09, 1994 11:05 UTC","Wed Apr 20, 1994 16:05:00 UTC",Endeavour,STS-59,Space Shuttle,11d,05h,0m,0s,,,
+1568,"Fri Jul 08, 1994 04:43 UTC","Fri Jul 22, 1994 21:43:00 UTC",Columbia,STS-65,Space Shuttle,14d,17h,0m,0s,,,
+1552,"Fri Sep 09, 1994 22:22 UTC","Tue Sep 20, 1994 20:22:00 UTC",Discovery,STS-64,Space Shuttle,10d,22h,0m,0s,,,
+1550,"Fri Sep 30, 1994 11:16 UTC","Tue Oct 11, 1994 16:16:00 UTC",Endeavour,STS-68,Space Shuttle,11d,05h,0m,0s,,,
+1542,"Thu Nov 03, 1994 16:59 UTC","Mon Nov 14, 1994 14:59:00 UTC",Atlantis,STS-66,Space Shuttle,10d,22h,0m,0s,,,
+1524,"Fri Feb 03, 1995 05:22 UTC","Sat Feb 11, 1995 11:22:00 UTC",Discovery,STS-63,Space Shuttle,08d,06h,0m,0s,,,
+1523,"Thu Mar 02, 1995 06:38 UTC","Sat Mar 18, 1995 21:38:00 UTC",Endeavour,STS-67,Space Shuttle,16d,15h,0m,0s,,,
+1503,"Tue Jun 27, 1995 19:32 UTC","Fri Jul 07, 1995 14:32:00 UTC",Atlantis,STS-71,Space Shuttle,09d,19h,0m,0s,,,
+1499,"Thu Jul 13, 1995 13:41 UTC","Sat Jul 22, 1995 11:41:00 UTC",Discovery,STS-70,Space Shuttle,08d,22h,0m,0s,,,
+1489,"Thu Sep 07, 1995 15:09 UTC","Mon Sep 18, 1995 11:09:00 UTC",Endeavour,STS-69,Space Shuttle,10d,20h,0m,0s,,,
+1485,"Fri Oct 20, 1995 13:53 UTC","Sun Nov 05, 1995 10:53:00 UTC",Columbia,STS-73,Space Shuttle,15d,21h,0m,0s,,,
+1479,"Sun Nov 12, 1995 12:30 UTC","Mon Nov 20, 1995 16:30:00 UTC",Atlantis,STS-74,Space Shuttle,08d,04h,0m,0s,,,
+1468,"Thu Jan 11, 1996 09:41 UTC","Sat Jan 20, 1996 07:41:00 UTC",Endeavour,STS-72,Space Shuttle,08d,22h,0m,0s,,,
+1459,"Thu Feb 22, 1996 20:18 UTC","Sat Mar 09, 1996 13:18:00 UTC",Columbia,STS-75,Space Shuttle,15d,17h,0m,0s,,,
+1454,"Fri Mar 22, 1996 08:13 UTC","Sun Mar 31, 1996 13:13:00 UTC",Atlantis,STS-76,Space Shuttle,09d,05h,0m,0s,,,
+1443,"Sun May 19, 1996 10:30 UTC","Wed May 29, 1996 10:30:00 UTC",Endeavour,STS-77,Space Shuttle,10d,00h,0m,0s,,,
+1439,"Thu Jun 20, 1996 14:49 UTC","Sun Jul 07, 1996 11:49:00 UTC",Columbia,STS-78,Space Shuttle,16d,21h,0m,0s,,,
+1421,"Mon Sep 16, 1996 08:54 UTC","Thu Sep 26, 1996 11:54:00 UTC",Atlantis,STS-79,Space Shuttle,10d,03h,0m,0s,,,
+1413,"Sat Dec 07, 1996 11:49 UTC","Wed Dec 25, 1996 02:49:00 UTC",Columbia,STS-80,Space Shuttle,17d,15h,0m,0s,,,
+1408,"Sun Jan 12, 1997 09:27 UTC","Wed Jan 22, 1997 13:27:00 UTC",Atlantis,STS-81,Space Shuttle,10d,04h,0m,0s,,,
+1405,"Tue Feb 11, 1997 08:55 UTC","Fri Feb 21, 1997 07:55:00 UTC",Discovery,STS-82,Space Shuttle,09d,23h,0m,0s,,,
+1396,"Fri Apr 04, 1997 19:20 UTC","Tue Apr 08, 1997 18:20:00 UTC",Columbia,STS-83,Space Shuttle,03d,23h,0m,0s,,,
+1388,"Thu May 15, 1997 08:07 UTC","Sat May 24, 1997 13:07:00 UTC",Atlantis,STS-84,Space Shuttle,09d,05h,0m,0s,,,
+1382,"Tue Jul 01, 1997 18:02 UTC","Thu Jul 17, 1997 10:02:00 UTC",Columbia,STS-94,Space Shuttle,15d,16h,0m,0s,,,
+1377,"Thu Aug 07, 1997 14:41 UTC","Tue Aug 19, 1997 10:41:00 UTC",Discovery,STS-85,Space Shuttle,11d,20h,0m,0s,,,
+1364,"Thu Sep 25, 1997 14:34 UTC","Mon Oct 06, 1997 09:34:00 UTC",Atlantis,STS-86,Space Shuttle,10d,19h,0m,0s,,,
+1350,"Wed Nov 19, 1997 19:46 UTC","Fri Dec 05, 1997 11:46:00 UTC",Columbia,STS-87,Space Shuttle,15d,16h,0m,0s,,,
+1336,"Thu Jan 22, 1998 02:48 UTC","Fri Jan 30, 1998 21:48:00 UTC",Endeavour,STS-89,Space Shuttle,08d,19h,0m,0s,,,
+1320,"Fri Apr 17, 1998 18:19 UTC","Sun May 03, 1998 15:19:00 UTC",Columbia,STS-90,Space Shuttle,15d,21h,0m,0s,,,
+1311,"Tue Jun 02, 1998 22:06 UTC","Fri Jun 12, 1998 17:06:00 UTC",Discovery,STS-91,Space Shuttle,09d,19h,0m,0s,,,
+1281,"Thu Oct 29, 1998 19:19 UTC","Sat Nov 07, 1998 16:19:00 UTC",Discovery,STS-95,Space Shuttle,08d,21h,0m,0s,,,
+1278,"Fri Dec 04, 1998 08:35 UTC","Wed Dec 16, 1998 03:35:00 UTC",Endeavour,STS-88,ISS,11d,19h,0m,0s,,,
+1250,"Thu May 27, 1999 10:49 UTC","Sun Jun 06, 1999 05:49:00 UTC",Discovery,STS-96,ISS,09d,19h,0m,0s,,,
+1241,"Fri Jul 23, 1999 04:31 UTC","Wed Jul 28, 1999 02:31:00 UTC",Columbia,STS-93,Space Shuttle,04d,22h,0m,0s,,,
+1218,"Mon Dec 20, 1999 00:50 UTC","Mon Dec 27, 1999 23:50:00 UTC",Discovery,STS-103,Space Shuttle,07d,23h,0m,0s,,,
+1206,"Fri Feb 11, 2000 16:43 UTC","Tue Feb 22, 2000 21:43:00 UTC",Endeavour,STS-99,Space Shuttle,11d,05h,0m,0s,,,
+1194,"Fri May 19, 2000 10:11 UTC","Mon May 29, 2000 07:11:00 UTC",Atlantis,STS-101,ISS,09d,21h,0m,0s,,,
+1179,"Fri Sep 08, 2000 12:45 UTC","Wed Sep 20, 2000 07:45:00 UTC",Atlantis,STS-106,ISS,11d,19h,0m,0s,,,
+1172,"Wed Oct 11, 2000 23:17 UTC","Tue Oct 24, 2000 20:17:00 UTC",Discovery,STS-92,ISS,12d,21h,0m,0s,,,
+1170,"Tue Oct 31, 2000 07:52 UTC","Sun May 06, 2001 05:40:00 UTC",Soyuz U,Soyuz TM-31,ISS,186d,21h,48m,0s,,,
+1162,"Thu Nov 30, 2000 03:06 UTC","Sun Dec 10, 2000 22:06:00 UTC",Endeavour,STS-97,ISS,10d,19h,0m,0s,,,
+1152,"Wed Feb 07, 2001 23:13 UTC","Tue Feb 20, 2001 20:13:00 UTC",Atlantis,STS-98,ISS,12d,21h,0m,0s,,,
+1149,"Thu Mar 08, 2001 11:42 UTC","Wed Mar 21, 2001 06:42:00 UTC",Discovery,STS-102,ISS,12d,19h,0m,0s,,,
+1144,"Thu Apr 19, 2001 18:40 UTC","Tue May 01, 2001 15:40:00 UTC",Endeavour,STS-100,ISS,11d,21h,0m,0s,,,
+1143,"Sat Apr 28, 2001 07:37 UTC","Wed Oct 31, 2001 05:00:00 UTC",Soyuz U,Soyuz TM-32,ISS,185d,21h,23m,0s,,,
+1137,"Thu Jul 12, 2001 09:03 UTC","Wed Jul 25, 2001 03:03:00 UTC",Atlantis,STS-104,ISS,12d,18h,0m,0s,,,
+1131,"Fri Aug 10, 2001 21:10 UTC","Wed Aug 22, 2001 18:10:00 UTC",Discovery,STS-105,ISS,11d,21h,0m,0s,,,
+1130,"Sat Oct 21, 2001 08:59 UTC","Sun May 05, 2002 03:51:00 UTC",Soyuz U,Soyuz TM-33,ISS,195d,18h,52m,0s,,,
+1118,"Wed Dec 05, 2001 22:19 UTC","Mon Dec 17, 2001 17:19:00 UTC",Endeavour,STS-108,ISS,11d,19h,0m,0s,,,
+1105,"Fri Mar 01, 2002 11:22 UTC","Tue Mar 12, 2002 09:22:00 UTC",Columbia,STS-109,Space Shuttle,10d,22h,0m,0s,,,
+1099,"Mon Apr 08, 2002 20:44 UTC","Fri Apr 19, 2002 15:44:00 UTC",Atlantis,STS-110,ISS,10d,19h,0m,0s,,,
+1098,"Thu Apr 25, 2002 06:26 UTC","Sun Nov 10, 2002 00:04:00 UTC",Soyuz U,Soyuz TM-34,ISS,198d,17h,38m,0s,,,
+1092,"Wed Jun 05, 2002 21:22 UTC","Wed Jun 19, 2002 17:22:00 UTC",Endeavour,STS-111,ISS,13d,20h,0m,0s,,,
+1076,"Mon Oct 07, 2002 19:45 UTC","Fri Oct 18, 2002 14:45:00 UTC",Atlantis,STS-112,ISS,10d,19h,0m,0s,,,
+1075,"Wed Oct 30, 2002 03:11 UTC","Sun May 04, 2003 02:04:00 UTC",Soyuz FG,Soyuz TMA-1,ISS,185d,22h,53m,0s,,,
+1073,"Sun Nov 24, 2002 00:49 UTC","Sat Dec 07, 2002 18:49:00 UTC",Endeavour,STS-113,ISS,13d,18h,0m,0s,,,
+1062,"Thu Jan 16, 2003 15:39 UTC","Sat Feb 01, 2003 13:39:00 UTC",Columbia,STS-107,Space Shuttle,15d,22h,0m,0s,,,
+1061,"Sat Apr 26, 2003 03:53 UTC","Tue Oct 28, 2003 02:39:00 UTC",Soyuz FG,Soyuz TMA-2,ISS,184d,22h,46m,0s,,,
+1060,"Sat Oct 18, 2003 05:38 UTC","Fri Apr 30, 2004 00:11:00 UTC",Soyuz FG,Soyuz TMA-3,ISS,194d,18h,33m,0s,,,
+1059,"Mon Apr 19, 2004 03:19 UTC","Sat Oct 23, 2004 16:41:00 UTC",Soyuz FG,Soyuz TMA-4,ISS,187d,13h,22m,0s,,,
+1058,"Thu Oct 14, 2004  03:06 UTC","Sun Apr 24, 2005 22:02:00 UTC",Soyuz FG,Soyuz TMA-5,ISS,192d,19h,2m,0s,,,
+1057,"Fri Apr 15, 2005 00:46 UTC","Tue Oct 11, 2005 00:46:00 UTC",Soyuz FG,Soyuz TMA-6,ISS,179d,0h,0m,0s,,,
+953,"Tue Jul 26, 2005 14:39 UTC","Tue Aug 09, 2005 11:39:00 UTC",Discovery,STS-114,ISS,13d,21h,0m,0s,,,
+952,"Sat Oct 01, 2005 03:55 UTC","Sat Apr 08, 2006 23:48:00 UTC",Soyuz FG,Soyuz TMA-7,ISS,189d,19h,53m,0s,,,
+950,"Thu Mar 30, 2006 02:30 UTC","Fri Sep 29, 2006 01:30:00 UTC",Soyuz FG,Soyuz TMA-8,ISS,182d,23h,0m,0s,,,
+914,"Tue Jul 04, 2006 18:37 UTC","Mon Jul 17, 2006 12:37:00 UTC",Discovery,STS-121,ISS,12d,18h,0m,0s,,,
+905,"Sat Sep 09, 2006 15:14 UTC","Thu Sep 21, 2006 10:14:00 UTC",Atlantis,STS-115,ISS,11d,19h,0m,0s,,,
+904,"Mon Sep 18, 2006 04:08 UTC","Sat Apr 21, 2007 12:30:00 UTC",Soyuz FG,Soyuz TMA-9,ISS,215d,8h,22m,0s,,,
+891,"Sun Dec 10, 2006 00:47 UTC","Fri Dec 22, 2006 21:47:00 UTC",Discovery,STS-116,ISS,12d,21h,0m,0s,,,
+890,"Sat Apr 07, 2007 17:31 UTC","Sun Oct 21, 2007 10:36:00 UTC",Soyuz FG,Soyuz TMA-10,ISS,196d,17h,5m,0s,,,
+867,"Fri Jun 08, 2007 23:38 UTC","Fri Jun 22, 2007 19:38:00 UTC",Atlantis,STS-117,ISS,13d,20h,0m,0s,,,
+858,"Wed Aug 08, 2007 22:36 UTC","Tue Aug 21, 2007 16:36:00 UTC",Endeavour,STS-118,ISS,12d,18h,0m,0s,,,
+857,"Wed Oct 10, 2007 13:22 UTC","Sat Apr 19, 2008 08:39:00 UTC",Soyuz FG,Soyuz TMA-11,ISS,191d,19h,17m,0s,,,
+847,"Tue Oct 23, 2007 03:38 UTC","Wed Nov 07, 2007 05:38:00 UTC",Discovery,STS-120,ISS,15d,02h,0m,0s,,,
+834,"Thu Feb 07, 2008 19:45 UTC","Wed Feb 20, 2008 13:45:00 UTC",Atlantis,STS-122,ISS,12d,18h,0m,0s,,,
+831,"Tue Mar 11, 2008 06:28 UTC","Thu Mar 27, 2008 00:28:00 UTC",Endeavour,STS-123,ISS,15d,18h,0m,0s,,,
+830,"Tue Apr 08, 2008 11:16 UTC","Fri Oct 24, 2008 03:37:00 UTC",Soyuz FG,Soyuz TMA-12,ISS,198d,16h,21m,0s,,,
+817,"Sat May 31, 2008 21:02 UTC","Sat Jun 14, 2008 15:02:00 UTC",Discovery,STS-124,ISS,13d,18h,0m,0s,,,
+816,"Sun Oct 12, 2008 07:01 UTC","Wed Apr 08, 2009 07:16:00 UTC",Soyuz FG,Soyuz TMA-13,ISS,178d,0h,15m,0s,,,
+791,"Sat Nov 15, 2008 00:55 UTC","Sun Nov 30, 2008 20:55:00 UTC",Endeavour,STS-126,ISS,15d,20h,0m,0s,,,
+779,"Sun Mar 15, 2009 23:43 UTC","Sat Mar 28, 2009 18:43:00 UTC",Discovery,STS-119,ISS,12d,19h,0m,0s,,,
+775,"Thu Mar 26, 2009 11:49 UTC","Sun Oct 11, 2009 11:49:00 UTC",Soyuz FG,Soyuz TMA-14,ISS,199d,0h,0m,0s,,,
+771,"Mon May 11, 2009 18:01 UTC","Sun May 24, 2009 15:01:00 UTC",Atlantis,STS-125,Space Shuttle,12d,21h,0m,0s,,,
+770,"Wed May 27, 2009 10:35 UTC","Tue Dec 01, 2009 10:35:00 UTC",Soyuz FG,Soyuz TMA-15,ISS,188d,0h,0m,0s,,,
+762,"Wed Jul 15, 2009 22:03 UTC","Fri Jul 31, 2009 14:03:00 UTC",Endeavour,STS-127,ISS,15d,16h,0m,0s,,,
+756,"Fri Aug 28, 2009 03:59 UTC","Fri Sep 11, 2009 00:59:00 UTC",Discovery,STS-128,ISS,13d,21h,0m,0s,,,
+750,"Wed Sep 30, 2009 07:14 UTC","Thu Mar 18, 2010 06:14:00 UTC",Soyuz FG,Soyuz TMA-16,ISS,168d,23h,0m,0s,,,
+745,"Mon Nov 16, 2009 19:28 UTC","Fri Nov 27, 2009 14:28:00 UTC",Atlantis,STS-129,ISS,10d,19h,0m,0s,,,
+740,"Sun Dec 20, 2009 21:52 UTC","Wed Jun 02, 2010 21:52:00 UTC",Soyuz FG,Soyuz TMA-17,ISS,164d,0h,0m,0s,,,
+737,"Mon Feb 08, 2010 09:14 UTC","Mon Feb 22, 2010 03:14:00 UTC",Endeavour,STS-130,ISS,13d,18h,0m,0s,,,
+734,"Fri Apr 02, 2010 04:04 UTC","Sat Sep 25, 2010 04:04:00 UTC",Soyuz FG,Soyuz TMA-18,ISS,176d,0h,0m,0s,,,
+733,"Mon Apr 05, 2010 10:21 UTC","Tue Apr 20, 2010 13:21:00 UTC",Discovery,STS-131,ISS,15d,03h,0m,0s,,,
+726,"Fri May 14, 2010 18:20 UTC","Wed May 26, 2010 12:20:00 UTC",Atlantis,STS-132,ISS,11d,18h,0m,0s,,,
+720,"Tue Jun 15, 2010 21:35 UTC","Fri Nov 26, 2010 21:35:00 UTC",Soyuz FG,Soyuz TMA-19,ISS,164d,0h,0m,0s,,,
+719,"Thu Oct 07, 2010 23:10 UTC","Wed Mar 16, 2011 22:10:00 UTC",Soyuz FG,Soyuz TMA-01M,ISS,159d,23h,0m,0s,,,
+718,"Wed Dec 15, 2010 19:09 UTC","Tue May 24, 2011 02:26:00 UTC",Soyuz FG,Soyuz TMA-20,ISS,159d,7h,17m,0s,,,
+695,"Thu Feb 24, 2011 21:53 UTC","Wed Mar 09, 2011 16:53:00 UTC",Discovery,STS-133,ISS,12d,19h,0m,0s,,,
+694,"Mon Apr 04, 2011 22:18 UTC","Fri Sep 16, 2011 13:18:00 UTC",Soyuz FG,Soyuz TMA-21,ISS,164d,15h,0m,0s,,,
+687,"Mon May 16, 2011 12:56 UTC","Wed Jun 01, 2011 06:56:00 UTC",Endeavour,STS-134,ISS,15d,18h,0m,0s,,,
+686,"Tue Jun 07, 2011 20:12 UTC","Tue Nov 22, 2011 02:12:00 UTC",Soyuz FG,Soyuz TMA-02M,ISS,167d,6h,0m,0s,,,
+682,"Fri Jul 08, 2011 15:29 UTC","Thu Jul 21, 2011 09:29:00 UTC",Atlantis,STS-135,ISS,12d,18h,0m,0s,,,
+681,"Mon Nov 14, 2011 04:14 UTC","Fri Apr 27, 2012 11:14:00 UTC",Soyuz FG,Soyuz TMA-22,ISS,165d,7h,0m,0s,,,
+680,"Wed Dec 21, 2011 13:16 UTC","Sun Jul 01, 2012 08:16:00 UTC",Soyuz FG,Soyuz TMA-03M,ISS,192d,19h,0m,0s,,,
+679,"Tue May 15, 2012 03:01 UTC","Mon Sep 17, 2012 03:01:00 UTC",Soyuz FG,Soyuz TMA-04M,ISS,125d,0h,0m,0s,,,
+678,"Sun Jul 15, 2012 02:40 UTC","Mon Nov 19, 2012 01:40:00 UTC",Soyuz FG,Soyuz TMA-05M,ISS,126d,23h,0m,0s,,,
+677,"Thu Oct 23, 2012 10:51 UTC","Sat Mar 16, 2013 03:51:00 UTC",Soyuz FG,Soyuz TMA-06M,ISS,143d,17h,0m,0s,,,
+676,"Wed Dec 19, 2012 12:12 UTC","Tue May 14, 2013 02:12:00 UTC",Soyuz FG,Soyuz TMA-07M,ISS,145d,14h,0m,0s,,,
+675,"Thu Mar 28, 2013 20:43 UTC","Wed Sep 11, 2013 02:43:00 UTC",Soyuz FG,Soyuz TMA-08M,ISS,166d,6h,0m,0s,,,
+674,"Tue May 28, 2013 20:31 UTC","Mon Nov 11, 2013 02:31:00 UTC",Soyuz FG,Soyuz TMA-09M,ISS,166d,6h,0m,0s,,,
+673,"Wed Sep 25, 2013 20:58 UTC","Tue Mar 11, 2014 03:24:00 UTC",Soyuz FG,Soyuz TMA-10M,ISS,166d,6h,26m,0s,,,
+672,"Thu Nov 07, 2013 04:15 UTC","Wed May 14, 2014 01:59:00 UTC",Soyuz FG,Soyuz TMA-11M,ISS,187d,21h,44m,0s,,,
+671,"Tue Mar 25, 2014 21:17 UTC","Thu Sep 11, 2014 02:23:00 UTC",Soyuz FG,Soyuz TMA-12M,ISS,169d,5h,6m,0s,,,
+670,"Wed May 28, 2014 19:57 UTC","Mon Nov 10, 2014 03:58:00 UTC",Soyuz FG,Soyuz TMA-13M,ISS,165d,8h,1m,0s,,,
+669,"Thu Sep 25, 2014 20:25 UTC","Thu Mar 12, 2015 02:08:00 UTC",Soyuz FG,Soyuz TMA-14M,ISS,167d,5h,43m,0s,,,
+668,"Sun Nov 23, 2014 21:00 UTC","Thu Jun 11, 2015 13:42:00 UTC",Soyuz FG,Soyuz TMA-15M,ISS,199d,16h,42m,0s,,,
+667,"Fri Mar 27, 2015 19:43 UTC","Sat Sep 12, 2015 00:52:00 UTC",Soyuz FG,Soyuz TMA-16M,ISS,168d,5h,9m,0s,,,
+666,"Wed Jul 22, 2015 21:03 UTC","Fri Dec 11, 2015 13:12:00 UTC",Soyuz FG,Soyuz TMA-17M,ISS,141d,16h,9m,0s,,,
+665,"Wed Sep 02, 2015 04:38 UTC","Wed Mar 02, 2016 04:26:00 UTC",Soyuz FG,Soyuz TMA-18M,ISS,181d,23h,48m,0s,,,
+664,"Tue Dec 15, 2015 11:03 UTC","Sat Jun 18, 2016 09:14:00 UTC",Soyuz FG,Soyuz TMA-19M,ISS,185d,22h,11m,0s,,,
+452,"Fri Mar 18, 2016 21:26 UTC","Tue Sep 06, 2016 21:26:00 UTC",Soyuz FG,Soyuz TMA-20M,ISS,172d,0h,0m,0s,,,
+424,"Thu Jul 07, 2016 01:36 UTC","Sun Oct 30, 2016 01:36:00 UTC",Soyuz FG,Soyuz MS-01,ISS,115d,0h,0m,0s,,,
+402,"Wed Oct 19, 2016 08:05 UTC","Mon Apr 10, 2017 08:05:00 UTC",Soyuz FG,Soyuz MS-02,ISS,173d,0h,0m,0s,,,
+395,"Thu Nov 17, 2016 20:20 UTC","Fri Jun 02, 2017 20:20:00 UTC",Soyuz FG,Soyuz MS-03,ISS,197d,0h,0m,0s,,,
+360,"Thu Apr 20, 2017 07:13 UTC","Sat Sep 02, 2017 07:13:00 UTC",Soyuz FG,Soyuz MS-04 (50S),ISS,135d,0h,0m,0s,,,
+334,"Fri Jul 28, 2017 15:41 UTC","Thu Dec 14, 2017 15:41:00 UTC",Soyuz FG,Soyuz MS-05 (51S),ISS,139d,0h,0m,0s,,,
+332,"Sat Sep 12, 2017 21:17 UTC","Tue Feb 27, 2018 21:17:00 UTC",Soyuz FG,Soyuz MS-06 (52S),ISS,168d,0h,0m,0s,,,
+294,"Sun Dec 17, 2017 07:21 UTC","Sun Jun 03, 2018 07:21:00 UTC",Soyuz FG,Soyuz MS-07 (53S),ISS,168d,0h,0m,0s,,,
+263,"Wed Mar 21, 2018 17:44 UTC","Wed Oct 03, 2018 17:44:00 UTC",Soyuz FG,Soyuz MS-08 (54S),ISS,196d,0h,0m,0s,,,
+237,"Wed Jun 06, 2018 11:12 UTC","Thu Dec 20, 2018 11:12:00 UTC",Soyuz FG,Soyuz MS-09 (55S),ISS,197d,0h,0m,0s,,,
+186,"Mon Dec 03, 2018 11:31 UTC","Mon Jun 24, 2019 11:31:00 UTC",Soyuz FG,Soyuz MS-11 (57S),ISS,203d,0h,0m,0s,,,
+155,"Thu Mar 14, 2019 19:14 UTC","Wed Oct 02, 2019 19:14:00 UTC",Soyuz FG,Soyuz MS-12 (58S),ISS,202d,0h,0m,0s,,,
+122,"Sat Jul 20, 2019 16:28 UTC","Wed Feb 05, 2020 16:28:00 UTC",Soyuz FG,Soyuz MS-13 (59S),ISS,200d,0h,0m,0s,,,
+98,"Wed Sep 25, 2019 13:57 UTC","Fri Apr 17, 2020 13:57:00 UTC",Soyuz FG,Soyuz MS-15 (61S),ISS,205d,0h,0m,0s,,,
+37,"Thu Apr 09, 2020 08:05 UTC","Wed Oct 21, 2020 08:05:00 UTC",Soyuz 2.1a,Soyuz MS-16,ISS,195d,0h,0m,0s,,,
+36,"Wed Oct 14, 2020 05:45 UTC","Sat Apr 17, 2021 05:45:00 UTC",Soyuz 2.1a,Soyuz MS-17,ISS,185d,0h,0m,0s,,,
+30,"Sat May 30, 2020 19:22 UTC","Sun Aug 02, 2020 19:22:00 UTC",Dragon 2,DM-2,Commercial Crew Program,64d,0h,0m,0s,,,
+29,"Sun Nov 16, 2020 00:27 UTC","Sun Jun 16, 2021 00:30:00 UTC",Dragon 2,Crew-1,Commercial Crew Program,180d,0h,0m,0s,,,
