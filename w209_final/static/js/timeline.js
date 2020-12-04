@@ -33,8 +33,8 @@ var missions =  d3.csv("static/data/missions.csv", function(csv_data) {
                         .data(missiondata)
                         .maxHeight(600)
                         .maxLineHeight("10px")
-                        .topMargin(80)
-                        .leftMargin(250)
+                        .topMargin(20)
+                        .leftMargin(270)
                         .rightMargin(250)
                         //.sortChrono(false)
                         .zQualitative(true)
@@ -43,8 +43,12 @@ var missions =  d3.csv("static/data/missions.csv", function(csv_data) {
       body { 
           background: black; 
       }
+      .timelines-chart .legendG {
+        display: none;
+      }
       .timelines-chart .reset-zoom-btn {
         fill: white;
+        font-size: 20px !important;
       }
       .timelines-chart .axises .y-axis text, .timelines-chart .axises .grp-axis text {
         fill: white;

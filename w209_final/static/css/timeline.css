@@ -1,0 +1,16 @@
+.timeline_labels { 
+    font-family: 'nasa';
+    font-size: 36px;
+    color: white;
+    background-color: #105bd8; 
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+.alignleft {
+    padding-left: 120px;
+    float: left;
+}
+.alignright {
+    padding-right: 120px;
+    float: right;
+}
